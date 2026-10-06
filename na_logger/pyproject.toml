@@ -1,0 +1,18 @@
+[project]
+name = "na-logger"
+version = "0.1.0"
+description = "SO-101 (leader/follower teleop) + Crazyflie IMU synchronized logger with LAN web GUI"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "cflib>=0.1.33",
+    "feetech-servo-sdk>=1.0.0",
+    "aiohttp>=3.9",
+    "numpy>=1.26",
+    "mujoco>=3.1",
+]
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[tool.uv]
+package = false

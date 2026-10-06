@@ -1,0 +1,22 @@
+# cp config.example.toml config.toml 후 필요한 값만 남겨서 사용: ./run.sh --config config.toml
+# 전체 항목과 기본값은 nalog/config.py 참고
+
+# SO-101 포트 (자동 판별이 헷갈릴 때만 지정: ls /dev/cu.usbmodem*)
+# follower_port = "/dev/cu.usbmodem5A7A0185011"
+# leader_port   = "/dev/cu.usbmodem5A7A0185021"   # 리더 없이 팔로워만 기록하려면 "none"
+
+arm_rate_hz = 100.0            # 논문(NeuralActuator) SO-101 데이터는 약 60 Hz
+teleop_autostart = false       # true: 두 팔이 잡히면 바로 텔레옵 시작 (./run.sh --teleop 과 같음)
+
+# Crazyflie
+cf_uri = "radio://0/80/2M/E7E7E7E7E8"
+imu_latency_ms = 0.0           # 보정용 회차에서 추정한 IMU 지연(ms)을 넣으면 merged.csv에서 빼줌
+
+# 회차 자동 분할
+auto_trial = true
+motion_thresh_deg = 1.5        # 0.2초 안에 어느 관절이든 1.5° 넘게 움직이면 "구동"
+idle_stop_s = 3.0              # 3초 동안 안 움직이면 회차 종료
+pre_roll_s = 1.0               # 움직이기 1초 전부터 저장
+
+port = 8080
+data_dir = "data"

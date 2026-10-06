@@ -1,0 +1,50 @@
+{
+  "mode": "simulation_only_position_servo_physics",
+  "completed": true,
+  "stopped_reason": null,
+  "simulated_seconds": 24.30199999999741,
+  "physics_steps": 12151,
+  "collision_check_period_s": 0.002,
+  "minimum_sampled_clearance_m": 0.00579999975531792,
+  "closest_geom_pair": [
+    "robot_collision_gripper_3",
+    "cf_collision_battery_holder"
+  ],
+  "joint_order": [
+    "shoulder_pan",
+    "shoulder_lift",
+    "elbow_flex",
+    "wrist_flex",
+    "wrist_roll",
+    "gripper"
+  ],
+  "max_absolute_tracking_error_rad": [
+    0.0805551286604459,
+    0.07307088629159508,
+    0.07281417418683822,
+    0.07985105667988668,
+    0.06855765738334818,
+    3.0735383427460405e-05
+  ],
+  "max_absolute_velocity_rad_s": [
+    1.5301779295057987,
+    1.2449574477158871,
+    1.2256529744304898,
+    1.4633061538243328,
+    1.300313667403003,
+    6.957203010290859e-05
+  ],
+  "max_absolute_acceleration_rad_s2": [
+    9.821167390774884,
+    8.582026427642697,
+    9.880096569537523,
+    9.559351799207922,
+    10.479788530697826,
+    0.002886328496287087
+  ],
+  "tracking_tolerance_rad": 0.12,
+  "continuous_collision_guarantee": false,
+  "hardware_safety_certification": false,
+  "compiled_model_sha256": "6b179e7803580a052030ba4c6ffea389d23438b50b34063595ddc65bcda7420c",
+  "trajectory": "outputs/excitation_v2_set_3/motion_007/trajectory.npz"
+}

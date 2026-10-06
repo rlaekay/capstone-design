@@ -1,0 +1,26 @@
+{
+  "mode": "original_recorded_kinematic_playback",
+  "index": 3,
+  "task": "go_up_and_stay_still",
+  "payload": "400g",
+  "source_csv": "third_party/NeuralActuator/data/so101/go_up_and_stay_still/400g/train/001.csv",
+  "source_sha256": "a3e617258c76c6401c5d7a86ebede6cce6b0e9bf92716bb2bd049dc4a2e7f1dc",
+  "source_timestamp_origin": 0.014787912368774414,
+  "duration_s": 11.661675453186035,
+  "samples": 727,
+  "model_path": "outputs/paper_original_10/original_model.mjb",
+  "original_model_sha256": "62555c2853a3173edc06a64242eaabe506e439473d53247e9d8823429f3569f7",
+  "bench_model_sha256": "6b179e7803580a052030ba4c6ffea389d23438b50b34063595ddc65bcda7420c",
+  "no_time_scaling": true,
+  "no_smoothing": true,
+  "no_joint_changes": true,
+  "bench_assessment": {
+    "passed": true,
+    "violating_samples": 0,
+    "minimum_distance_m": 0.005799999755317909,
+    "first_violations": [],
+    "note": "Sampled measured poses with original gripper motion. Not a collision-free motion plan or physics rollout.",
+    "distance_scope": "Only poses passing joint-limit checks have distance evaluated"
+  },
+  "source_model_path": "third_party/NeuralActuator/robot_so101/so101_torque_scene.xml"
+}

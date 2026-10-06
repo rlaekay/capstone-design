@@ -1,0 +1,135 @@
+{
+  "model": "models/bench/scene.xml",
+  "collision_policy_file": "models/bench/model_info.json",
+  "robot_root_body": "base",
+  "obstacles": [],
+  "joint_names": [
+    "shoulder_pan",
+    "shoulder_lift",
+    "elbow_flex",
+    "wrist_flex",
+    "wrist_roll"
+  ],
+  "fixed_joints": {
+    "gripper": 1.2
+  },
+  "clearance_m": 0.005,
+  "edge_resolution_rad": 0.01,
+  "joint_margin_rad": 0.005,
+  "sample_period_s": 0.01,
+  "max_velocity_rad_s": [
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0
+  ],
+  "max_acceleration_rad_s2": [
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0
+  ],
+  "duration_s": 21.28,
+  "ramp_s": 4.0,
+  "seed": 20263031,
+  "center_rad": [
+    -0.17741503245655665,
+    -0.4918230346535821,
+    -0.4383002090618364,
+    -0.43339514008473645,
+    1.2602251818226025
+  ],
+  "amplitudes_rad": [
+    0.35,
+    0.16,
+    0.18,
+    0.2,
+    0.25
+  ],
+  "frequencies_hz": [
+    [
+      0.07,
+      0.11
+    ],
+    [
+      0.09,
+      0.13
+    ],
+    [
+      0.08,
+      0.14
+    ],
+    [
+      0.11,
+      0.17
+    ],
+    [
+      0.1,
+      0.16
+    ]
+  ],
+  "profile": "revised_saved_spline",
+  "initial_hold_s": 4.640000000000001,
+  "final_hold_s": 4.640000000000001,
+  "segments": [],
+  "broad_phase": true,
+  "training_window_s": [
+    4.640000000000001,
+    16.64
+  ],
+  "training_duration_s": 12.0,
+  "revised_blocks": [
+    {
+      "name": "wide_slow",
+      "start_s": 5.390000000000001,
+      "end_s": 15.89,
+      "center_rad": [
+        -0.17741503245655665,
+        -0.4918230346535821,
+        -0.4383002090618364,
+        -0.43339514008473645,
+        1.2602251818226025
+      ],
+      "duration_s": 10.5,
+      "ramp_s": 2.0,
+      "amplitudes_rad": [
+        0.48159259702581636,
+        0.5876503259136219,
+        0.6497820706255968,
+        0.48476257556339747,
+        0.6307460214940868
+      ],
+      "frequency_start_hz": [
+        0.12410631963585955,
+        0.1959435966757927,
+        0.20312573947004306,
+        0.12184899442117172,
+        0.14679200520717994
+      ],
+      "frequency_end_hz": [
+        0.29589984539945036,
+        0.3523920451227393,
+        0.27357759881164373,
+        0.2823167087978532,
+        0.38169749244717543
+      ]
+    }
+  ],
+  "source_provenance": null,
+  "time_scale_factor": 1.0,
+  "library": {
+    "family": "wide_slow",
+    "index": 0,
+    "attempt": 25,
+    "home_rad": [
+      0.0,
+      -0.6,
+      0.6,
+      0.0,
+      0.0
+    ],
+    "intended_use": "simulation reference; not measured training data"
+  }
+}

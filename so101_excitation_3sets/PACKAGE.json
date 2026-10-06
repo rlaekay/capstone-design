@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "motions": 30,
+  "training_seconds": 360,
+  "mujoco_version": "3.3.2",
+  "model_sha256": "6b179e7803580a052030ba4c6ffea389d23438b50b34063595ddc65bcda7420c",
+  "model": "models/bench/scene.mjb",
+  "portable_xml": "models/bench/scene.xml",
+  "scope": "Excitation 3 sets only; no hardware driver and no force labels"
+}

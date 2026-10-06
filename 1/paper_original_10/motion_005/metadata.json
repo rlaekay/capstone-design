@@ -1,0 +1,26 @@
+{
+  "mode": "original_recorded_kinematic_playback",
+  "index": 5,
+  "task": "pick_and_place",
+  "payload": "empty",
+  "source_csv": "third_party/NeuralActuator/data/so101/pick_and_place/empty/train/001.csv",
+  "source_sha256": "6b6bc9f2bdecc34dded66902b95b768fc42faefdf5d4c53a055a78ecbf526e1a",
+  "source_timestamp_origin": 0.015094280242919922,
+  "duration_s": 9.798336744308472,
+  "samples": 611,
+  "model_path": "outputs/paper_original_10/original_model.mjb",
+  "original_model_sha256": "62555c2853a3173edc06a64242eaabe506e439473d53247e9d8823429f3569f7",
+  "bench_model_sha256": "6b179e7803580a052030ba4c6ffea389d23438b50b34063595ddc65bcda7420c",
+  "no_time_scaling": true,
+  "no_smoothing": true,
+  "no_joint_changes": true,
+  "bench_assessment": {
+    "passed": true,
+    "violating_samples": 0,
+    "minimum_distance_m": 0.005799999755317924,
+    "first_violations": [],
+    "note": "Sampled measured poses with original gripper motion. Not a collision-free motion plan or physics rollout.",
+    "distance_scope": "Only poses passing joint-limit checks have distance evaluated"
+  },
+  "source_model_path": "third_party/NeuralActuator/robot_so101/so101_torque_scene.xml"
+}

@@ -1,0 +1,559 @@
+{
+  "format_version": 1,
+  "mode": "simulation_only_kinematic",
+  "mujoco_version": "3.3.2",
+  "model_path": "/home/robocup-home/kjt/force_modeling/models/bench/scene.xml",
+  "compiled_model_sha256": "6b179e7803580a052030ba4c6ffea389d23438b50b34063595ddc65bcda7420c",
+  "source_xml_sha256": "8e16f0b8be58b3a430b598222db5146f3de999b28356538b963edb4e16db1267",
+  "config": {
+    "model": "models/bench/scene.xml",
+    "collision_policy_file": "models/bench/model_info.json",
+    "robot_root_body": "base",
+    "obstacles": [],
+    "joint_names": [
+      "shoulder_pan",
+      "shoulder_lift",
+      "elbow_flex",
+      "wrist_flex",
+      "wrist_roll"
+    ],
+    "fixed_joints": {
+      "gripper": 1.2
+    },
+    "clearance_m": 0.005,
+    "edge_resolution_rad": 0.01,
+    "joint_margin_rad": 0.005,
+    "sample_period_s": 0.01,
+    "max_velocity_rad_s": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "max_acceleration_rad_s2": [
+      12.0,
+      12.0,
+      12.0,
+      12.0,
+      12.0
+    ],
+    "duration_s": 18.88,
+    "ramp_s": 4.0,
+    "seed": 21162033,
+    "center_rad": [
+      -0.35909276337360163,
+      -0.41429037917158096,
+      0.6287414648610765,
+      -0.4237278214723553,
+      -0.8430583094745283
+    ],
+    "amplitudes_rad": [
+      0.35,
+      0.16,
+      0.18,
+      0.2,
+      0.25
+    ],
+    "frequencies_hz": [
+      [
+        0.07,
+        0.11
+      ],
+      [
+        0.09,
+        0.13
+      ],
+      [
+        0.08,
+        0.14
+      ],
+      [
+        0.11,
+        0.17
+      ],
+      [
+        0.1,
+        0.16
+      ]
+    ],
+    "profile": "revised_saved_spline",
+    "initial_hold_s": 3.44,
+    "final_hold_s": 3.4399999999999995,
+    "segments": [],
+    "broad_phase": true,
+    "training_window_s": [
+      3.44,
+      15.44
+    ],
+    "training_duration_s": 12.0,
+    "revised_blocks": [
+      {
+        "name": "burst_mix",
+        "start_s": 4.1899999999999995,
+        "end_s": 14.69,
+        "center_rad": [
+          -0.35909276337360163,
+          -0.41429037917158096,
+          0.6287414648610765,
+          -0.4237278214723553,
+          -0.8430583094745283
+        ],
+        "duration_s": 10.5,
+        "ramp_s": 2.0,
+        "amplitudes_rad": [
+          0.3061811365653952,
+          0.4809422615014627,
+          0.23817391199241741,
+          0.2913419508217308,
+          0.3360547852105983
+        ],
+        "frequency_start_hz": [
+          0.7804820762666773,
+          0.4663249090952307,
+          0.7610653872610338,
+          0.5482116523523273,
+          0.42584852966591713
+        ],
+        "frequency_end_hz": [
+          0.8628787798497121,
+          0.4744728154935638,
+          1.0292069396247334,
+          0.9068285730475041,
+          0.34269748781062986
+        ]
+      }
+    ],
+    "source_provenance": null,
+    "time_scale_factor": 1.0,
+    "library": {
+      "family": "burst_mix",
+      "index": 9,
+      "attempt": 0,
+      "home_rad": [
+        0.0,
+        -0.6,
+        0.6,
+        0.0,
+        0.0
+      ],
+      "intended_use": "simulation reference; not measured training data"
+    }
+  },
+  "collision_policy": {
+    "planning_excluded_body_pairs": [
+      [
+        "base",
+        "shoulder"
+      ],
+      [
+        "shoulder",
+        "upper_arm"
+      ],
+      [
+        "upper_arm",
+        "lower_arm"
+      ],
+      [
+        "lower_arm",
+        "wrist"
+      ],
+      [
+        "wrist",
+        "gripper"
+      ],
+      [
+        "gripper",
+        "moving_jaw_so101_v1"
+      ],
+      [
+        "gripper",
+        "crazyflie_bracket"
+      ],
+      [
+        "crazyflie_bracket",
+        "crazyflie"
+      ]
+    ],
+    "planning_excluded_geom_pairs": [
+      [
+        "robot_collision_base_4",
+        "floor"
+      ],
+      [
+        "robot_collision_base_5",
+        "floor"
+      ],
+      [
+        "robot_collision_base_6",
+        "floor"
+      ],
+      [
+        "robot_collision_base_7",
+        "floor"
+      ],
+      [
+        "robot_collision_base_4",
+        "desk_top"
+      ],
+      [
+        "robot_collision_base_4",
+        "desk_leg_0_0"
+      ],
+      [
+        "robot_collision_base_4",
+        "desk_leg_0_1"
+      ],
+      [
+        "robot_collision_base_4",
+        "desk_leg_1_0"
+      ],
+      [
+        "robot_collision_base_4",
+        "desk_leg_1_1"
+      ],
+      [
+        "robot_collision_base_4",
+        "clamp_right_rail"
+      ],
+      [
+        "robot_collision_base_4",
+        "clamp_right_upper_jaw"
+      ],
+      [
+        "robot_collision_base_4",
+        "clamp_right_lower_jaw"
+      ],
+      [
+        "robot_collision_base_4",
+        "clamp_right_screw"
+      ],
+      [
+        "robot_collision_base_4",
+        "clamp_right_pad"
+      ],
+      [
+        "robot_collision_base_4",
+        "clamp_left_rail"
+      ],
+      [
+        "robot_collision_base_4",
+        "clamp_left_upper_jaw"
+      ],
+      [
+        "robot_collision_base_4",
+        "clamp_left_lower_jaw"
+      ],
+      [
+        "robot_collision_base_4",
+        "clamp_left_screw"
+      ],
+      [
+        "robot_collision_base_4",
+        "clamp_left_pad"
+      ],
+      [
+        "robot_collision_base_4",
+        "under_base_keepout"
+      ],
+      [
+        "robot_collision_base_5",
+        "desk_top"
+      ],
+      [
+        "robot_collision_base_5",
+        "desk_leg_0_0"
+      ],
+      [
+        "robot_collision_base_5",
+        "desk_leg_0_1"
+      ],
+      [
+        "robot_collision_base_5",
+        "desk_leg_1_0"
+      ],
+      [
+        "robot_collision_base_5",
+        "desk_leg_1_1"
+      ],
+      [
+        "robot_collision_base_5",
+        "clamp_right_rail"
+      ],
+      [
+        "robot_collision_base_5",
+        "clamp_right_upper_jaw"
+      ],
+      [
+        "robot_collision_base_5",
+        "clamp_right_lower_jaw"
+      ],
+      [
+        "robot_collision_base_5",
+        "clamp_right_screw"
+      ],
+      [
+        "robot_collision_base_5",
+        "clamp_right_pad"
+      ],
+      [
+        "robot_collision_base_5",
+        "clamp_left_rail"
+      ],
+      [
+        "robot_collision_base_5",
+        "clamp_left_upper_jaw"
+      ],
+      [
+        "robot_collision_base_5",
+        "clamp_left_lower_jaw"
+      ],
+      [
+        "robot_collision_base_5",
+        "clamp_left_screw"
+      ],
+      [
+        "robot_collision_base_5",
+        "clamp_left_pad"
+      ],
+      [
+        "robot_collision_base_5",
+        "under_base_keepout"
+      ],
+      [
+        "robot_collision_base_6",
+        "desk_top"
+      ],
+      [
+        "robot_collision_base_6",
+        "desk_leg_0_0"
+      ],
+      [
+        "robot_collision_base_6",
+        "desk_leg_0_1"
+      ],
+      [
+        "robot_collision_base_6",
+        "desk_leg_1_0"
+      ],
+      [
+        "robot_collision_base_6",
+        "desk_leg_1_1"
+      ],
+      [
+        "robot_collision_base_6",
+        "clamp_right_rail"
+      ],
+      [
+        "robot_collision_base_6",
+        "clamp_right_upper_jaw"
+      ],
+      [
+        "robot_collision_base_6",
+        "clamp_right_lower_jaw"
+      ],
+      [
+        "robot_collision_base_6",
+        "clamp_right_screw"
+      ],
+      [
+        "robot_collision_base_6",
+        "clamp_right_pad"
+      ],
+      [
+        "robot_collision_base_6",
+        "clamp_left_rail"
+      ],
+      [
+        "robot_collision_base_6",
+        "clamp_left_upper_jaw"
+      ],
+      [
+        "robot_collision_base_6",
+        "clamp_left_lower_jaw"
+      ],
+      [
+        "robot_collision_base_6",
+        "clamp_left_screw"
+      ],
+      [
+        "robot_collision_base_6",
+        "clamp_left_pad"
+      ],
+      [
+        "robot_collision_base_6",
+        "under_base_keepout"
+      ],
+      [
+        "robot_collision_base_7",
+        "desk_top"
+      ],
+      [
+        "robot_collision_base_7",
+        "desk_leg_0_0"
+      ],
+      [
+        "robot_collision_base_7",
+        "desk_leg_0_1"
+      ],
+      [
+        "robot_collision_base_7",
+        "desk_leg_1_0"
+      ],
+      [
+        "robot_collision_base_7",
+        "desk_leg_1_1"
+      ],
+      [
+        "robot_collision_base_7",
+        "clamp_right_rail"
+      ],
+      [
+        "robot_collision_base_7",
+        "clamp_right_upper_jaw"
+      ],
+      [
+        "robot_collision_base_7",
+        "clamp_right_lower_jaw"
+      ],
+      [
+        "robot_collision_base_7",
+        "clamp_right_screw"
+      ],
+      [
+        "robot_collision_base_7",
+        "clamp_right_pad"
+      ],
+      [
+        "robot_collision_base_7",
+        "clamp_left_rail"
+      ],
+      [
+        "robot_collision_base_7",
+        "clamp_left_upper_jaw"
+      ],
+      [
+        "robot_collision_base_7",
+        "clamp_left_lower_jaw"
+      ],
+      [
+        "robot_collision_base_7",
+        "clamp_left_screw"
+      ],
+      [
+        "robot_collision_base_7",
+        "clamp_left_pad"
+      ],
+      [
+        "robot_collision_base_7",
+        "under_base_keepout"
+      ]
+    ]
+  },
+  "validation": {
+    "validated_configurations": 2655,
+    "minimum_sampled_clearance_m": 0.005799999755317888,
+    "closest_geom_pair": [
+      "robot_collision_gripper_3",
+      "cf_collision_battery_holder"
+    ],
+    "distance_reporting_cap_m": 1.0,
+    "collision_pairs_checked_per_configuration": 848,
+    "continuous_collision_guarantee": false
+  },
+  "telemetry_version": 1,
+  "telemetry_mode": "simulated_physics_ideal_imu",
+  "sample_period_s": 0.01,
+  "gravity_world_m_s2": [
+    0.0,
+    0.0,
+    -9.81
+  ],
+  "physics_report": {
+    "mode": "simulation_only_position_servo_physics",
+    "completed": true,
+    "stopped_reason": null,
+    "simulated_seconds": 18.880000000000415,
+    "physics_steps": 9440,
+    "collision_check_period_s": 0.002,
+    "minimum_sampled_clearance_m": 0.005799999755317906,
+    "closest_geom_pair": [
+      "robot_collision_gripper_3",
+      "cf_collision_battery_holder"
+    ],
+    "joint_order": [
+      "shoulder_pan",
+      "shoulder_lift",
+      "elbow_flex",
+      "wrist_flex",
+      "wrist_roll",
+      "gripper"
+    ],
+    "max_absolute_tracking_error_rad": [
+      0.08481001445920194,
+      0.0849266068167146,
+      0.08417603015325992,
+      0.08296511973757603,
+      0.04483220633871243,
+      3.562566994008698e-05
+    ],
+    "max_absolute_velocity_rad_s": [
+      1.6008758080430472,
+      1.4277402406241126,
+      1.4352710487872162,
+      1.5064865410166757,
+      0.8478147955779959,
+      9.751397762994098e-05
+    ],
+    "max_absolute_acceleration_rad_s2": [
+      10.055167070024968,
+      5.732949773165965,
+      10.447148838113026,
+      9.725845915456626,
+      3.2689894575587006,
+      0.0031856272565666775
+    ],
+    "tracking_tolerance_rad": 0.12,
+    "continuous_collision_guarantee": false,
+    "hardware_safety_certification": false,
+    "compiled_model_sha256": "6b179e7803580a052030ba4c6ffea389d23438b50b34063595ddc65bcda7420c",
+    "trajectory": "/home/robocup-home/kjt/force_modeling/outputs/excitation_v2_set_1/motion_009/trajectory.npz"
+  },
+  "conventions": {
+    "world": "base/world, +Z up",
+    "quaternion": "wxyz, local to world",
+    "linear_acceleration": "a_world = R_world_from_site @ specific_force_local + gravity_world",
+    "specific_force": "ideal accelerometer a-g in local frame; nonzero when resting",
+    "payload_com": "placeholder site; no held object modeled",
+    "force_labels": "none; no payload mass assumed",
+    "noise": "none; real IMU bias/filter/time delay not simulated"
+  },
+  "statistics": {
+    "samples": 1889,
+    "sample_period_s": 0.01,
+    "active_acceleration_min_xyz_m_s2": [
+      -2.7694882008730572,
+      -2.9371053451560836,
+      -2.9714689673585433
+    ],
+    "active_acceleration_max_xyz_m_s2": [
+      2.5131610338393897,
+      2.6395507342170372,
+      2.5268494004474373
+    ],
+    "active_acceleration_rms_xyz_m_s2": [
+      0.9894130718081696,
+      1.112693820979648,
+      1.187716716423504
+    ],
+    "per_segment": [],
+    "velocity_difference_check": {
+      "rms_residual_xyz_m_s2": [
+        0.10619322921853402,
+        0.11508117216753434,
+        0.10443635226517346
+      ],
+      "note": "Central differences of sampled velocity; finite timestep/sampling error expected."
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "motions": 10,
+  "exhaustive_audit_samples": 486,
+  "minimum_clearance_m": 0.005535775208125681,
+  "passed": true,
+  "scope": "Every 0.5 s and acceleration extrema; additional to 2 ms AABB-assisted physics collision checks.",
+  "results": [
+    {
+      "motion": "motion_000",
+      "samples": 49,
+      "minimum_clearance_m": 0.0057999997553179
+    },
+    {
+      "motion": "motion_001",
+      "samples": 56,
+      "minimum_clearance_m": 0.005799999755317948
+    },
+    {
+      "motion": "motion_002",
+      "samples": 55,
+      "minimum_clearance_m": 0.005799999755317944
+    },
+    {
+      "motion": "motion_003",
+      "samples": 47,
+      "minimum_clearance_m": 0.005799999755317946
+    },
+    {
+      "motion": "motion_004",
+      "samples": 49,
+      "minimum_clearance_m": 0.0057999997553179455
+    },
+    {
+      "motion": "motion_005",
+      "samples": 43,
+      "minimum_clearance_m": 0.005799999755317907
+    },
+    {
+      "motion": "motion_006",
+      "samples": 55,
+      "minimum_clearance_m": 0.005799999755317932
+    },
+    {
+      "motion": "motion_007",
+      "samples": 44,
+      "minimum_clearance_m": 0.005799999755317938
+    },
+    {
+      "motion": "motion_008",
+      "samples": 43,
+      "minimum_clearance_m": 0.005535775208125681
+    },
+    {
+      "motion": "motion_009",
+      "samples": 45,
+      "minimum_clearance_m": 0.005799999755317904
+    }
+  ]
+}

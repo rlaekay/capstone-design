@@ -1,0 +1,275 @@
+{
+  "id": "T0002_20261006-202752",
+  "num": 2,
+  "label": "",
+  "state": "ready",
+  "auto": true,
+  "reason": "motion",
+  "started_unix": 1791286071.9652224,
+  "t0_ns": 817752597782999,
+  "clock_anchor": {
+    "unix_ns": 1791285160881141000,
+    "mono_ns": 816841513701500
+  },
+  "host_clock": "time.monotonic_ns (macOS)",
+  "joint_names": [
+    "shoulder_pan",
+    "shoulder_lift",
+    "elbow_flex",
+    "wrist_flex",
+    "wrist_roll",
+    "gripper"
+  ],
+  "servo_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "calib": {
+    "follower": {
+      "port": "/dev/cu.usbmodem5AAF2651691",
+      "ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "voltage": 11.8,
+      "range_min": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "range_max": [
+        4095,
+        4095,
+        4095,
+        4095,
+        4095,
+        4095
+      ],
+      "mid": [
+        2047.5,
+        2047.5,
+        2047.5,
+        2047.5,
+        2047.5,
+        2047.5
+      ],
+      "calibrated": false,
+      "servo_config": {
+        "1": {
+          "firmware": "3.10",
+          "model": 777,
+          "return_delay": 0,
+          "min_limit": 0,
+          "max_limit": 4095,
+          "max_torque": 1000,
+          "p_coef": 16,
+          "d_coef": 24,
+          "i_coef": 0,
+          "protection_current": 310,
+          "homing_offset": -1755,
+          "operating_mode": 0,
+          "overload_torque": 80
+        },
+        "2": {
+          "firmware": "3.10",
+          "model": 777,
+          "return_delay": 0,
+          "min_limit": 0,
+          "max_limit": 4095,
+          "max_torque": 1000,
+          "p_coef": 40,
+          "d_coef": 32,
+          "i_coef": 2,
+          "protection_current": 310,
+          "homing_offset": -1217,
+          "operating_mode": 0,
+          "overload_torque": 80
+        },
+        "3": {
+          "firmware": "3.10",
+          "model": 777,
+          "return_delay": 0,
+          "min_limit": 0,
+          "max_limit": 4095,
+          "max_torque": 1000,
+          "p_coef": 40,
+          "d_coef": 32,
+          "i_coef": 2,
+          "protection_current": 310,
+          "homing_offset": -1805,
+          "operating_mode": 0,
+          "overload_torque": 80
+        },
+        "4": {
+          "firmware": "3.10",
+          "model": 777,
+          "return_delay": 0,
+          "min_limit": 0,
+          "max_limit": 4095,
+          "max_torque": 1000,
+          "p_coef": 64,
+          "d_coef": 16,
+          "i_coef": 0,
+          "protection_current": 310,
+          "homing_offset": -335,
+          "operating_mode": 0,
+          "overload_torque": 80
+        },
+        "5": {
+          "firmware": "3.10",
+          "model": 777,
+          "return_delay": 0,
+          "min_limit": 0,
+          "max_limit": 4095,
+          "max_torque": 1000,
+          "p_coef": 64,
+          "d_coef": 0,
+          "i_coef": 0,
+          "protection_current": 310,
+          "homing_offset": -1518,
+          "operating_mode": 0,
+          "overload_torque": 80
+        },
+        "6": {
+          "firmware": "3.10",
+          "model": 777,
+          "return_delay": 0,
+          "min_limit": 0,
+          "max_limit": 4095,
+          "max_torque": 1000,
+          "p_coef": 32,
+          "d_coef": 32,
+          "i_coef": 0,
+          "protection_current": 310,
+          "homing_offset": 1086,
+          "operating_mode": 0,
+          "overload_torque": 80
+        }
+      }
+    }
+  },
+  "arm_status": {
+    "mode": "hw",
+    "follower": {
+      "connected": true,
+      "port": "/dev/cu.usbmodem5AAF2651691",
+      "ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "missing": [],
+      "voltage": 11.8,
+      "calibrated": false
+    },
+    "leader": {
+      "connected": false,
+      "disabled": false
+    },
+    "teleop": "off",
+    "soft_start": false,
+    "script_t0_ns": null,
+    "script_progress": null,
+    "message": "follower 연결: /dev/cu.usbmodem5AAF2651691 (11.8 V)",
+    "port_notes": {}
+  },
+  "cf_status": {
+    "mode": "hw",
+    "state": "connected",
+    "uri": "radio://0/80/2M/E7E7E7E7E8",
+    "message": "연결됨 radio://0/80/2M/E7E7E7E7E8",
+    "battery_v": 3.8217010498046875,
+    "link_quality": 99.5,
+    "has_att": true
+  },
+  "sim": false,
+  "config": {
+    "follower_port": "auto",
+    "leader_port": "auto",
+    "baudrate": 1000000,
+    "servo_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "joint_names": [
+      "shoulder_pan",
+      "shoulder_lift",
+      "elbow_flex",
+      "wrist_flex",
+      "wrist_roll",
+      "gripper"
+    ],
+    "arm_rate_hz": 100.0,
+    "follower_min_voltage": 8.0,
+    "teleop_autostart": false,
+    "teleop_mapping": "range",
+    "follower_acceleration": 254,
+    "soft_start_max_dps": 60.0,
+    "soft_start_timeout_s": 5.0,
+    "cf_enabled": true,
+    "cf_uri": "radio://0/80/2M/E7E7E7E7E8",
+    "imu_period_ms": 10,
+    "imu_latency_ms": 0.0,
+    "auto_trial": true,
+    "motion_window_s": 0.2,
+    "motion_thresh_deg": 1.5,
+    "idle_stop_s": 3.0,
+    "pre_roll_s": 1.0,
+    "standby_after_s": 60.0,
+    "host": "0.0.0.0",
+    "port": 8080,
+    "allow_remote_control": false,
+    "data_dir": "/Users/dmdrb/my/Artemis/na_logger/data",
+    "live_window_s": 15.0
+  },
+  "align_calib": null,
+  "stopped_unix": 1791286082.4799078,
+  "stop_reason": "shutdown",
+  "end_ns": 817763112468333,
+  "duration_s": 10.499981458,
+  "n_arm": 1050,
+  "n_imu": 1052,
+  "n_att": 1052,
+  "arm_rate_hz": 100.23617647901285,
+  "arm_dt_p99_ms": 11.596743839999808,
+  "imu_rate_hz": 100.05249324428934,
+  "imu_coverage": 0.9990476190476191,
+  "clock_fit": {
+    "n": 2104,
+    "bins": 11,
+    "bins_used": 11,
+    "drift_ppm": -524.657050493502,
+    "envelope_jitter_ms": 0.2284424194005577,
+    "rx_excess_median_ms": 1.2631082746665925,
+    "rx_excess_p95_ms": 2.117693892167881,
+    "segments": 1
+  },
+  "imu_lag": {
+    "lag_ms": 8.662110290596098,
+    "r2": 0.90116658033782,
+    "corr": 0.9492979407634992,
+    "method": "lstsq(|gyro|^2 ~ qd^T M qd)",
+    "reliable": true,
+    "lag_ms_after_correction": 8.662110290596098
+  },
+  "finalized_unix": 1791286082.562081,
+  "max_temp_C": 33.0
+}

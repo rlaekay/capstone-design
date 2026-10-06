@@ -1,0 +1,186 @@
+{
+  "index": 4,
+  "family": "burst_mix",
+  "folder": "outputs/excitation_v2_set_1/motion_004",
+  "seed": 20662019,
+  "attempts": 2,
+  "duration_s": 20.060000000000002,
+  "training_duration_s": 12.0,
+  "training_window_s": [
+    4.029999999999999,
+    16.03
+  ],
+  "samples": 2007,
+  "center_rad": [
+    -0.3508043380133092,
+    -0.9726750156927645,
+    1.123562659508266,
+    -1.0487606984275526,
+    -0.1711395073659383
+  ],
+  "joint_min_rad": [
+    -0.6296583278133461,
+    -1.287565571619097,
+    0.6,
+    -1.2727142847116315,
+    -0.44405910445120306,
+    1.1999710326533788
+  ],
+  "joint_max_rad": [
+    1.0756610969041083e-08,
+    -0.5930145184597981,
+    1.4999583253818796,
+    0.0027286352028109357,
+    0.10137919484933373,
+    1.2000398794472618
+  ],
+  "imu_position_min_m": [
+    0.12833594462037515,
+    0.003178507364855495,
+    0.09019535878410717
+  ],
+  "imu_position_max_m": [
+    0.2656452999152786,
+    0.14658432478412126,
+    0.3290470060328463
+  ],
+  "end_effector_range_xyz_m": [
+    0.2253109948800616,
+    0.13772517616647312,
+    0.23721282284008877
+  ],
+  "geometry": {
+    "validated_configurations": 2746,
+    "minimum_sampled_clearance_m": 0.0057999997553179125,
+    "closest_geom_pair": [
+      "robot_collision_gripper_3",
+      "cf_collision_battery_holder"
+    ],
+    "distance_reporting_cap_m": 1.0,
+    "collision_pairs_checked_per_configuration": 848,
+    "continuous_collision_guarantee": false
+  },
+  "physics": {
+    "mode": "simulation_only_position_servo_physics",
+    "completed": true,
+    "stopped_reason": null,
+    "simulated_seconds": 20.06199999999976,
+    "physics_steps": 10031,
+    "collision_check_period_s": 0.002,
+    "minimum_sampled_clearance_m": 0.005799999755317899,
+    "closest_geom_pair": [
+      "robot_collision_gripper_3",
+      "cf_collision_battery_holder"
+    ],
+    "joint_order": [
+      "shoulder_pan",
+      "shoulder_lift",
+      "elbow_flex",
+      "wrist_flex",
+      "wrist_roll",
+      "gripper"
+    ],
+    "max_absolute_tracking_error_rad": [
+      0.054596625115582054,
+      0.09047398285046082,
+      0.09627367317418134,
+      0.07532695212895502,
+      0.07629743911660988,
+      3.987944726180359e-05
+    ],
+    "max_absolute_velocity_rad_s": [
+      1.0285841904806037,
+      1.6270857224163935,
+      1.6312899286097713,
+      1.4100856249066696,
+      1.4438436185790604,
+      6.166010992645398e-05
+    ],
+    "max_absolute_acceleration_rad_s2": [
+      4.868306450240257,
+      9.964401524483517,
+      9.880096569537523,
+      10.787496084395245,
+      9.593970266448604,
+      0.0034020636779296303
+    ],
+    "tracking_tolerance_rad": 0.12,
+    "continuous_collision_guarantee": false,
+    "hardware_safety_certification": false,
+    "compiled_model_sha256": "6b179e7803580a052030ba4c6ffea389d23438b50b34063595ddc65bcda7420c",
+    "trajectory": "outputs/excitation_v2_set_1/motion_004/trajectory.npz"
+  },
+  "acceleration": {
+    "samples": 2007,
+    "sample_period_s": 0.01,
+    "active_acceleration_min_xyz_m_s2": [
+      -2.5095742167519997,
+      -2.2738634284541552,
+      -2.8534025771592697
+    ],
+    "active_acceleration_max_xyz_m_s2": [
+      2.9350073226782567,
+      1.4067286979121691,
+      3.4357059985281797
+    ],
+    "active_acceleration_rms_xyz_m_s2": [
+      0.9782888160518759,
+      0.6485596236466982,
+      1.416529721000208
+    ],
+    "per_segment": [],
+    "velocity_difference_check": {
+      "rms_residual_xyz_m_s2": [
+        0.09958415023977435,
+        0.06713144669228731,
+        0.13386460474017195
+      ],
+      "note": "Central differences of sampled velocity; finite timestep/sampling error expected."
+    }
+  },
+  "source_provenance": null,
+  "blocks": [
+    {
+      "name": "burst_mix",
+      "start_s": 4.779999999999999,
+      "end_s": 15.280000000000001,
+      "center_rad": [
+        -0.3508043380133092,
+        -0.9726750156927645,
+        1.123562659508266,
+        -1.0487606984275526,
+        -0.1711395073659383
+      ],
+      "duration_s": 10.5,
+      "ramp_s": 2.0,
+      "amplitudes_rad": [
+        0.28187768857322243,
+        0.3196106028793018,
+        0.3712256790768011,
+        0.23086583098299776,
+        0.2759967301847383
+      ],
+      "frequency_start_hz": [
+        0.5299644195378814,
+        0.7819108635311962,
+        0.7116889278499716,
+        0.7918766831527406,
+        0.3795376999587181
+      ],
+      "frequency_end_hz": [
+        0.6017258010871209,
+        0.826622155687113,
+        0.6935166908981708,
+        1.0453698509108313,
+        0.9560879231236006
+      ]
+    }
+  ],
+  "rejections": {
+    "Trajectory fails at sample 106": 1
+  },
+  "rejection_examples": {
+    "Trajectory fails at sample 106": "Trajectory fails at sample 106: CheckResult(valid=False, minimum_distance_m=0.004957085931757543, pair=('clamp_left_upper_jaw', 'robot_collision_shoulder_5'), reason='collision or insufficient clearance')"
+  },
+  "compute_seconds": 13.398783941000147
+}

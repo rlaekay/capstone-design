@@ -1,0 +1,216 @@
+{
+  "index": 5,
+  "family": "wide_slow",
+  "folder": "outputs/excitation_v2_set_3/motion_005",
+  "seed": 20764039,
+  "attempts": 19,
+  "duration_s": 24.72,
+  "training_duration_s": 12.0,
+  "training_window_s": [
+    6.36,
+    18.36
+  ],
+  "samples": 2473,
+  "center_rad": [
+    -0.034316700960618896,
+    0.3133988151151368,
+    0.10664449223372668,
+    -0.19302957892656247,
+    -1.8539045957084004
+  ],
+  "joint_min_rad": [
+    -0.5548302800417241,
+    -0.6,
+    -0.4542289755042911,
+    -0.6892599650020835,
+    -2.4795576773969894,
+    1.1999625183530953
+  ],
+  "joint_max_rad": [
+    0.4859710338406092,
+    0.7558518305265697,
+    0.6872803096081938,
+    0.30851759258257766,
+    1.80821524001372e-05,
+    1.200022701756044
+  ],
+  "imu_position_min_m": [
+    0.24960708066778992,
+    -0.08208299606201688,
+    0.033362603291349505
+  ],
+  "imu_position_max_m": [
+    0.3614918576677848,
+    0.2180486256282567,
+    0.28275147722729016
+  ],
+  "end_effector_range_xyz_m": [
+    0.11045091955528547,
+    0.35457399067521156,
+    0.27027360792105215
+  ],
+  "geometry": {
+    "validated_configurations": 2698,
+    "minimum_sampled_clearance_m": 0.005799999755317918,
+    "closest_geom_pair": [
+      "robot_collision_gripper_3",
+      "cf_collision_battery_holder"
+    ],
+    "distance_reporting_cap_m": 1.0,
+    "collision_pairs_checked_per_configuration": 848,
+    "continuous_collision_guarantee": false
+  },
+  "physics": {
+    "mode": "simulation_only_position_servo_physics",
+    "completed": true,
+    "stopped_reason": null,
+    "simulated_seconds": 24.721999999997177,
+    "physics_steps": 12361,
+    "collision_check_period_s": 0.002,
+    "minimum_sampled_clearance_m": 0.005799999755317905,
+    "closest_geom_pair": [
+      "robot_collision_gripper_3",
+      "cf_collision_battery_holder"
+    ],
+    "joint_order": [
+      "shoulder_pan",
+      "shoulder_lift",
+      "elbow_flex",
+      "wrist_flex",
+      "wrist_roll",
+      "gripper"
+    ],
+    "max_absolute_tracking_error_rad": [
+      0.048573659602836994,
+      0.05410120175772509,
+      0.06764096421159868,
+      0.049138248671338355,
+      0.0670855410415292,
+      3.7482039273228906e-05
+    ],
+    "max_absolute_velocity_rad_s": [
+      0.909523129055608,
+      0.8627614697513292,
+      1.0852153074587254,
+      0.9311669481444993,
+      1.2762166746265151,
+      6.030476941102355e-05
+    ],
+    "max_absolute_acceleration_rad_s2": [
+      2.915464966871578,
+      5.003375645446133,
+      9.880096569537523,
+      3.225612632765942,
+      4.512541935124976,
+      0.0009472661180455198
+    ],
+    "tracking_tolerance_rad": 0.12,
+    "continuous_collision_guarantee": false,
+    "hardware_safety_certification": false,
+    "compiled_model_sha256": "6b179e7803580a052030ba4c6ffea389d23438b50b34063595ddc65bcda7420c",
+    "trajectory": "outputs/excitation_v2_set_3/motion_005/trajectory.npz"
+  },
+  "acceleration": {
+    "samples": 2473,
+    "sample_period_s": 0.01,
+    "active_acceleration_min_xyz_m_s2": [
+      -0.5684049288952332,
+      -0.7126207075053056,
+      -0.6378491430361901
+    ],
+    "active_acceleration_max_xyz_m_s2": [
+      0.7196706459384866,
+      0.4742768612441863,
+      0.8779933696160729
+    ],
+    "active_acceleration_rms_xyz_m_s2": [
+      0.23754548050564708,
+      0.30954729259167113,
+      0.2711880085413153
+    ],
+    "per_segment": [],
+    "velocity_difference_check": {
+      "rms_residual_xyz_m_s2": [
+        0.024554098750268843,
+        0.02404536841048878,
+        0.02420017274638719
+      ],
+      "note": "Central differences of sampled velocity; finite timestep/sampling error expected."
+    }
+  },
+  "source_provenance": null,
+  "blocks": [
+    {
+      "name": "wide_slow",
+      "start_s": 7.11,
+      "end_s": 17.61,
+      "center_rad": [
+        -0.034316700960618896,
+        0.3133988151151368,
+        0.10664449223372668,
+        -0.19302957892656247,
+        -1.8539045957084004
+      ],
+      "duration_s": 10.5,
+      "ramp_s": 2.0,
+      "amplitudes_rad": [
+        0.5217875680931795,
+        0.4272830655302802,
+        0.5732511628730889,
+        0.5008442039086775,
+        0.6280792825329972
+      ],
+      "frequency_start_hz": [
+        0.2032968384949451,
+        0.12792154140123346,
+        0.18892440669912375,
+        0.1665591462305345,
+        0.20814437445827003
+      ],
+      "frequency_end_hz": [
+        0.2969889488693966,
+        0.3749901725209863,
+        0.34439490395574407,
+        0.3418531714120647,
+        0.3626262895610154
+      ]
+    }
+  ],
+  "rejections": {
+    "Trajectory fails at sample 168": 1,
+    "Trajectory fails at sample 427": 1,
+    "Trajectory fails at sample 311": 1,
+    "Trajectory fails at sample 59": 1,
+    "Trajectory fails at sample 108": 1,
+    "Trajectory fails at sample 194": 1,
+    "Trajectory fails at sample 171": 1,
+    "Trajectory fails at sample 388": 1,
+    "Trajectory fails at sample 110": 1,
+    "center collision": 3,
+    "Trajectory fails at sample 558": 1,
+    "Trajectory fails at sample 131": 1,
+    "Trajectory fails at sample 241": 1,
+    "Trajectory fails at sample 327": 1,
+    "Trajectory fails at sample 83": 1,
+    "Trajectory fails at sample 89": 1
+  },
+  "rejection_examples": {
+    "Trajectory fails at sample 168": "Trajectory fails at sample 168: CheckResult(valid=False, minimum_distance_m=0.0049507737651346044, pair=('clamp_right_upper_jaw', 'robot_collision_shoulder_5'), reason='collision or insufficient clearance')",
+    "Trajectory fails at sample 427": "Trajectory fails at sample 427: CheckResult(valid=False, minimum_distance_m=0.00499819784969021, pair=('clamp_right_upper_jaw', 'robot_collision_shoulder_5'), reason='collision or insufficient clearance')",
+    "Trajectory fails at sample 311": "Trajectory fails at sample 311: CheckResult(valid=False, minimum_distance_m=0.0049694384521435445, pair=('clamp_left_upper_jaw', 'robot_collision_shoulder_5'), reason='collision or insufficient clearance')",
+    "Trajectory fails at sample 59": "Trajectory fails at sample 59: CheckResult(valid=False, minimum_distance_m=0.004978137369681548, pair=('clamp_right_upper_jaw', 'robot_collision_shoulder_5'), reason='collision or insufficient clearance')",
+    "Trajectory fails at sample 108": "Trajectory fails at sample 108: CheckResult(valid=False, minimum_distance_m=0.004972827680797419, pair=('clamp_left_upper_jaw', 'robot_collision_shoulder_5'), reason='collision or insufficient clearance')",
+    "Trajectory fails at sample 194": "Trajectory fails at sample 194: CheckResult(valid=False, minimum_distance_m=0.004975773155824687, pair=('clamp_left_upper_jaw', 'robot_collision_shoulder_5'), reason='collision or insufficient clearance')",
+    "Trajectory fails at sample 171": "Trajectory fails at sample 171: CheckResult(valid=False, minimum_distance_m=0.004050798641163518, pair=('clamp_right_rail', 'cf_collision_motor_1'), reason='collision or insufficient clearance')",
+    "Trajectory fails at sample 388": "Trajectory fails at sample 388: CheckResult(valid=False, minimum_distance_m=0.00410611000649027, pair=('clamp_left_rail', 'cf_collision_motor_2'), reason='collision or insufficient clearance')",
+    "Trajectory fails at sample 110": "Trajectory fails at sample 110: CheckResult(valid=False, minimum_distance_m=0.004979338197143636, pair=('clamp_right_upper_jaw', 'robot_collision_shoulder_5'), reason='collision or insufficient clearance')",
+    "center collision": "center collision",
+    "Trajectory fails at sample 558": "Trajectory fails at sample 558: CheckResult(valid=False, minimum_distance_m=-inf, pair=None, reason='joint limit or joint margin')",
+    "Trajectory fails at sample 131": "Trajectory fails at sample 131: CheckResult(valid=False, minimum_distance_m=-inf, pair=None, reason='joint limit or joint margin')",
+    "Trajectory fails at sample 241": "Trajectory fails at sample 241: CheckResult(valid=False, minimum_distance_m=0.004961426835453115, pair=('clamp_left_upper_jaw', 'robot_collision_shoulder_5'), reason='collision or insufficient clearance')",
+    "Trajectory fails at sample 327": "Trajectory fails at sample 327: CheckResult(valid=False, minimum_distance_m=0.004895584860829247, pair=('robot_collision_shoulder_1', 'cf_collision_expansion_deck'), reason='collision or insufficient clearance')",
+    "Trajectory fails at sample 83": "Trajectory fails at sample 83: CheckResult(valid=False, minimum_distance_m=0.004210060944790455, pair=('clamp_right_rail', 'robot_collision_gripper_3'), reason='collision or insufficient clearance')",
+    "Trajectory fails at sample 89": "Trajectory fails at sample 89: CheckResult(valid=False, minimum_distance_m=0.004991565015132107, pair=('clamp_left_upper_jaw', 'robot_collision_shoulder_5'), reason='collision or insufficient clearance')"
+  },
+  "compute_seconds": 17.16078209999978
+}

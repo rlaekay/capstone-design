@@ -1,0 +1,61 @@
+{
+  "status": "UNCONFIGURED_DO_NOT_SEND_TO_HARDWARE",
+  "port": null,
+  "baudrate": null,
+  "joints": [
+    {
+      "name": "shoulder_pan",
+      "servo_id": null,
+      "zero_tick": null,
+      "direction": null,
+      "ticks_per_radian": null,
+      "minimum_raw": null,
+      "maximum_raw": null
+    },
+    {
+      "name": "shoulder_lift",
+      "servo_id": null,
+      "zero_tick": null,
+      "direction": null,
+      "ticks_per_radian": null,
+      "minimum_raw": null,
+      "maximum_raw": null
+    },
+    {
+      "name": "elbow_flex",
+      "servo_id": null,
+      "zero_tick": null,
+      "direction": null,
+      "ticks_per_radian": null,
+      "minimum_raw": null,
+      "maximum_raw": null
+    },
+    {
+      "name": "wrist_flex",
+      "servo_id": null,
+      "zero_tick": null,
+      "direction": null,
+      "ticks_per_radian": null,
+      "minimum_raw": null,
+      "maximum_raw": null
+    },
+    {
+      "name": "wrist_roll",
+      "servo_id": null,
+      "zero_tick": null,
+      "direction": null,
+      "ticks_per_radian": null,
+      "minimum_raw": null,
+      "maximum_raw": null
+    },
+    {
+      "name": "gripper",
+      "servo_id": null,
+      "zero_tick": null,
+      "direction": null,
+      "ticks_per_radian": null,
+      "minimum_raw": null,
+      "maximum_raw": null
+    }
+  ]
+}

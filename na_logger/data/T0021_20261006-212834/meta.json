@@ -1,0 +1,537 @@
+{
+  "id": "T0021_20261006-212834",
+  "num": 21,
+  "label": "",
+  "state": "ready",
+  "auto": true,
+  "reason": "motion",
+  "started_unix": 1791289713.5855694,
+  "t0_ns": 821394311009708,
+  "clock_anchor": {
+    "unix_ns": 1791288646049617000,
+    "mono_ns": 820326775057541
+  },
+  "host_clock": "time.monotonic_ns (macOS)",
+  "joint_names": [
+    "shoulder_pan",
+    "shoulder_lift",
+    "elbow_flex",
+    "wrist_flex",
+    "wrist_roll",
+    "gripper"
+  ],
+  "servo_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "calib": {
+    "follower": {
+      "port": "/dev/cu.usbmodem5AAF2651691",
+      "ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "voltage": 11.9,
+      "range_min": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "range_max": [
+        4095,
+        4095,
+        4095,
+        4095,
+        4095,
+        4095
+      ],
+      "mid": [
+        2047.5,
+        2047.5,
+        2047.5,
+        2047.5,
+        2047.5,
+        2047.5
+      ],
+      "calibrated": false,
+      "servo_config": {
+        "1": {
+          "firmware": "3.10",
+          "model": 777,
+          "return_delay": 0,
+          "min_limit": 0,
+          "max_limit": 4095,
+          "max_torque": 1000,
+          "p_coef": 16,
+          "d_coef": 24,
+          "i_coef": 0,
+          "protection_current": 310,
+          "homing_offset": -1755,
+          "operating_mode": 0,
+          "overload_torque": 80
+        },
+        "2": {
+          "firmware": "3.10",
+          "model": 777,
+          "return_delay": 0,
+          "min_limit": 0,
+          "max_limit": 4095,
+          "max_torque": 1000,
+          "p_coef": 40,
+          "d_coef": 32,
+          "i_coef": 2,
+          "protection_current": 310,
+          "homing_offset": -1217,
+          "operating_mode": 0,
+          "overload_torque": 80
+        },
+        "3": {
+          "firmware": "3.10",
+          "model": 777,
+          "return_delay": 0,
+          "min_limit": 0,
+          "max_limit": 4095,
+          "max_torque": 1000,
+          "p_coef": 40,
+          "d_coef": 32,
+          "i_coef": 2,
+          "protection_current": 310,
+          "homing_offset": -1805,
+          "operating_mode": 0,
+          "overload_torque": 80
+        },
+        "4": {
+          "firmware": "3.10",
+          "model": 777,
+          "return_delay": 0,
+          "min_limit": 0,
+          "max_limit": 4095,
+          "max_torque": 1000,
+          "p_coef": 64,
+          "d_coef": 16,
+          "i_coef": 0,
+          "protection_current": 310,
+          "homing_offset": -335,
+          "operating_mode": 0,
+          "overload_torque": 80
+        },
+        "5": {
+          "firmware": "3.10",
+          "model": 777,
+          "return_delay": 0,
+          "min_limit": 0,
+          "max_limit": 4095,
+          "max_torque": 1000,
+          "p_coef": 64,
+          "d_coef": 0,
+          "i_coef": 0,
+          "protection_current": 310,
+          "homing_offset": -1518,
+          "operating_mode": 0,
+          "overload_torque": 80
+        },
+        "6": {
+          "firmware": "3.10",
+          "model": 777,
+          "return_delay": 0,
+          "min_limit": 0,
+          "max_limit": 4095,
+          "max_torque": 1000,
+          "p_coef": 32,
+          "d_coef": 32,
+          "i_coef": 0,
+          "protection_current": 310,
+          "homing_offset": 1086,
+          "operating_mode": 0,
+          "overload_torque": 80
+        }
+      }
+    }
+  },
+  "arm_status": {
+    "mode": "hw",
+    "follower": {
+      "connected": true,
+      "port": "/dev/cu.usbmodem5AAF2651691",
+      "ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "missing": [],
+      "voltage": 11.9,
+      "calibrated": false
+    },
+    "leader": {
+      "connected": false,
+      "disabled": true
+    },
+    "teleop": "off",
+    "soft_start": false,
+    "script_t0_ns": null,
+    "script_progress": null,
+    "message": "팔로워 토크 꺼짐",
+    "port_notes": {}
+  },
+  "cf_status": {
+    "mode": "hw",
+    "state": "connected",
+    "uri": "radio://0/80/2M/E7E7E7E7E8",
+    "message": "연결됨 radio://0/80/2M/E7E7E7E7E8",
+    "battery_v": 3.6897361278533936,
+    "link_quality": 99.9,
+    "has_att": true
+  },
+  "sim": false,
+  "config": {
+    "follower_port": "auto",
+    "leader_port": "none",
+    "baudrate": 1000000,
+    "servo_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "joint_names": [
+      "shoulder_pan",
+      "shoulder_lift",
+      "elbow_flex",
+      "wrist_flex",
+      "wrist_roll",
+      "gripper"
+    ],
+    "arm_rate_hz": 100.0,
+    "follower_min_voltage": 8.0,
+    "teleop_autostart": false,
+    "teleop_mapping": "range",
+    "follower_acceleration": 254,
+    "soft_start_max_dps": 60.0,
+    "soft_start_timeout_s": 5.0,
+    "cf_enabled": true,
+    "cf_uri": "radio://0/80/2M/E7E7E7E7E8",
+    "imu_period_ms": 10,
+    "imu_latency_ms": 0.0,
+    "payload_mass_g": null,
+    "accel_point": "payload",
+    "auto_trial": true,
+    "motion_window_s": 0.2,
+    "motion_thresh_deg": 1.5,
+    "idle_stop_s": 3.0,
+    "pre_roll_s": 1.0,
+    "standby_after_s": 60.0,
+    "host": "0.0.0.0",
+    "port": 8080,
+    "allow_remote_control": false,
+    "data_dir": "/Users/dmdrb/my/Artemis/na_logger/data",
+    "live_window_s": 15.0
+  },
+  "align_calib": {
+    "R_gi": [
+      [
+        0.03859807269776537,
+        -0.06561125159539552,
+        0.9970984667765288
+      ],
+      [
+        -0.9973547463016459,
+        0.058976390139319185,
+        0.0424887683478168
+      ],
+      [
+        -0.06159300945397663,
+        -0.9961008729391924,
+        -0.06316131819541004
+      ]
+    ],
+    "p_gi": [
+      -0.0685,
+      0.004599999999999999,
+      -0.0254
+    ],
+    "p_source": "nominal (추정 불안정)",
+    "p_estimated": [
+      -0.04217830899203357,
+      -0.005067209606608046,
+      -0.07451397408560452
+    ],
+    "p_nominal": [
+      -0.0685,
+      0.004599999999999999,
+      -0.0254
+    ],
+    "R_nominal": [
+      [
+        0.0,
+        0.0,
+        0.9999999999999998
+      ],
+      [
+        0.0,
+        0.9999999999999998,
+        0.0
+      ],
+      [
+        -0.9999999999999998,
+        0.0,
+        0.0
+      ]
+    ],
+    "angle_from_nominal_deg": 86.6271161901047,
+    "gyro_bias_dps": [
+      0.025905370854285317,
+      0.01855094624933617,
+      0.007281086711431791
+    ],
+    "acc_bias_g": [
+      0.005489009688871209,
+      -0.006115042626119609,
+      -0.0015351779701913376
+    ],
+    "lag_ms": 6.675248506025985,
+    "lag_info": {
+      "lag_ms": 6.675248506025985,
+      "r2": 0.9918881029206246,
+      "corr": 0.9959357925692923,
+      "method": "lstsq(|gyro|^2 ~ qd^T M qd)",
+      "reliable": true
+    },
+    "acc_extra_lag_ms": 4.7,
+    "joint_map": {
+      "sign": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset_deg": [
+        0.0,
+        0.0,
+        0.0,
+        -3.800000000000005,
+        0.0,
+        0.0
+      ]
+    },
+    "pitch_offset_deg": 0.8,
+    "residuals": {
+      "gyro_rms_dps": 3.400247275558866,
+      "gravity_rms_deg": 1.262997558970834,
+      "acc_rms_mps2": 0.7414776347747674,
+      "n_samples": 8765,
+      "n_static": 1170,
+      "lever_sv_min": 3.0683600217682683
+    },
+    "sign_warnings": [],
+    "quality": "check",
+    "id": "align_20261006-212759",
+    "created_unix": 1791289679.8359091,
+    "trial_id": "T0020_20261006-212629",
+    "segments": [
+      {
+        "kind": "static",
+        "t0": 1.016839083,
+        "t1": 3.216839083,
+        "label": "정지 자세 1"
+      },
+      {
+        "kind": "move",
+        "t0": 3.216839083,
+        "t1": 6.966839083,
+        "label": "정지 자세 2로 이동"
+      },
+      {
+        "kind": "static",
+        "t0": 6.966839083,
+        "t1": 9.166839083000001,
+        "label": "정지 자세 2"
+      },
+      {
+        "kind": "move",
+        "t0": 9.166839083000001,
+        "t1": 16.666839083,
+        "label": "정지 자세 3로 이동"
+      },
+      {
+        "kind": "static",
+        "t0": 16.666839083,
+        "t1": 18.866839083000002,
+        "label": "정지 자세 3"
+      },
+      {
+        "kind": "move",
+        "t0": 18.866839083000002,
+        "t1": 22.616839083000002,
+        "label": "정지 자세 4로 이동"
+      },
+      {
+        "kind": "static",
+        "t0": 22.616839083000002,
+        "t1": 24.816839083,
+        "label": "정지 자세 4"
+      },
+      {
+        "kind": "move",
+        "t0": 24.816839083,
+        "t1": 27.73350574966667,
+        "label": "정지 자세 5로 이동"
+      },
+      {
+        "kind": "static",
+        "t0": 27.73350574966667,
+        "t1": 29.93350574966667,
+        "label": "정지 자세 5"
+      },
+      {
+        "kind": "move",
+        "t0": 29.93350574966667,
+        "t1": 31.391839083,
+        "label": "정지 자세 6로 이동"
+      },
+      {
+        "kind": "static",
+        "t0": 31.391839083,
+        "t1": 33.591839083,
+        "label": "정지 자세 6"
+      },
+      {
+        "kind": "move",
+        "t0": 33.591839083,
+        "t1": 37.966839083,
+        "label": "정지 자세 7로 이동"
+      },
+      {
+        "kind": "static",
+        "t0": 37.966839083,
+        "t1": 40.166839083000006,
+        "label": "정지 자세 7"
+      },
+      {
+        "kind": "move",
+        "t0": 40.166839083000006,
+        "t1": 42.666839083000006,
+        "label": "정지 자세 8로 이동"
+      },
+      {
+        "kind": "static",
+        "t0": 42.666839083000006,
+        "t1": 44.86683908300001,
+        "label": "정지 자세 8"
+      },
+      {
+        "kind": "move",
+        "t0": 44.86683908300001,
+        "t1": 49.86683908300001,
+        "label": "정지 자세 9로 이동"
+      },
+      {
+        "kind": "static",
+        "t0": 49.86683908300001,
+        "t1": 52.06683908300001,
+        "label": "정지 자세 9"
+      },
+      {
+        "kind": "excite",
+        "t0": 52.06683908300001,
+        "t1": 58.06683908300001,
+        "label": "wrist_roll 흔들기"
+      },
+      {
+        "kind": "excite",
+        "t0": 58.06683908300001,
+        "t1": 63.06683908300001,
+        "label": "wrist_flex 흔들기"
+      },
+      {
+        "kind": "excite",
+        "t0": 63.06683908300001,
+        "t1": 68.066839083,
+        "label": "elbow 흔들기"
+      },
+      {
+        "kind": "excite",
+        "t0": 68.066839083,
+        "t1": 73.066839083,
+        "label": "shoulder_lift 흔들기"
+      },
+      {
+        "kind": "excite",
+        "t0": 73.066839083,
+        "t1": 78.066839083,
+        "label": "shoulder_pan 흔들기"
+      },
+      {
+        "kind": "excite",
+        "t0": 78.066839083,
+        "t1": 88.066839083,
+        "label": "전체 섞기"
+      },
+      {
+        "kind": "static",
+        "t0": 88.066839083,
+        "t1": 89.066839083,
+        "label": "완료"
+      }
+    ],
+    "model": "scene.xml",
+    "q_start_deg": [
+      3.5604395604395607,
+      -27.472527472527474,
+      34.94505494505495,
+      -6.373626373626374,
+      -22.1978021978022,
+      33.62637362637363
+    ],
+    "sim": false
+  },
+  "payload_mass_g": null,
+  "stopped_unix": 1791289720.765641,
+  "stop_reason": "idle",
+  "end_ns": 821401491081374,
+  "duration_s": 7.179907583,
+  "n_arm": 719,
+  "n_imu": 718,
+  "n_att": 718,
+  "arm_rate_hz": 100.85125010418983,
+  "arm_dt_p99_ms": 11.609965970000223,
+  "imu_rate_hz": 100.05305295641018,
+  "imu_coverage": 0.9972183588317107,
+  "clock_fit": {
+    "n": 1436,
+    "bins": 8,
+    "bins_used": 8,
+    "drift_ppm": -530.2482483169134,
+    "envelope_jitter_ms": 0.20674320354771933,
+    "rx_excess_median_ms": 0.6905412818305194,
+    "rx_excess_p95_ms": 1.1251476564793848,
+    "segments": 1
+  },
+  "imu_lag": {
+    "lag_ms": 14.446803150862735,
+    "r2": 0.9774257016975011,
+    "corr": 0.988648421683614,
+    "method": "lstsq(|gyro|^2 ~ qd^T M qd)",
+    "reliable": true,
+    "lag_ms_after_correction": 14.446803150862735
+  },
+  "finalized_unix": 1791289720.834193,
+  "max_temp_C": 36.0
+}

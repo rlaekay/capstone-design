@@ -1,0 +1,458 @@
+{
+  "status": "PROVISIONAL: confirmed CF2.1 with battery holder and expansion board; actual mount, deck dimensions/mass and IMU pose unmeasured",
+  "joint_names": [
+    "shoulder_pan",
+    "shoulder_lift",
+    "elbow_flex",
+    "wrist_flex",
+    "wrist_roll",
+    "gripper"
+  ],
+  "arm_joint_names": [
+    "shoulder_pan",
+    "shoulder_lift",
+    "elbow_flex",
+    "wrist_flex",
+    "wrist_roll"
+  ],
+  "root_body": "base",
+  "drone_body": "crazyflie",
+  "fixed_parent_body": "gripper",
+  "end_effector_site": "gripperframe",
+  "drone_site": "crazyflie_frame",
+  "home_qpos": [
+    0.0,
+    -0.5,
+    0.7,
+    -0.2,
+    0.0,
+    0.5
+  ],
+  "planning_excluded_body_pairs": [
+    [
+      "base",
+      "shoulder"
+    ],
+    [
+      "shoulder",
+      "upper_arm"
+    ],
+    [
+      "upper_arm",
+      "lower_arm"
+    ],
+    [
+      "lower_arm",
+      "wrist"
+    ],
+    [
+      "wrist",
+      "gripper"
+    ],
+    [
+      "gripper",
+      "moving_jaw_so101_v1"
+    ],
+    [
+      "gripper",
+      "crazyflie_bracket"
+    ],
+    [
+      "crazyflie_bracket",
+      "crazyflie"
+    ]
+  ],
+  "planning_excluded_geom_pairs": [
+    [
+      "robot_collision_base_4",
+      "floor"
+    ],
+    [
+      "robot_collision_base_5",
+      "floor"
+    ],
+    [
+      "robot_collision_base_6",
+      "floor"
+    ],
+    [
+      "robot_collision_base_7",
+      "floor"
+    ],
+    [
+      "robot_collision_base_4",
+      "desk_top"
+    ],
+    [
+      "robot_collision_base_4",
+      "desk_leg_0_0"
+    ],
+    [
+      "robot_collision_base_4",
+      "desk_leg_0_1"
+    ],
+    [
+      "robot_collision_base_4",
+      "desk_leg_1_0"
+    ],
+    [
+      "robot_collision_base_4",
+      "desk_leg_1_1"
+    ],
+    [
+      "robot_collision_base_4",
+      "clamp_right_rail"
+    ],
+    [
+      "robot_collision_base_4",
+      "clamp_right_upper_jaw"
+    ],
+    [
+      "robot_collision_base_4",
+      "clamp_right_lower_jaw"
+    ],
+    [
+      "robot_collision_base_4",
+      "clamp_right_screw"
+    ],
+    [
+      "robot_collision_base_4",
+      "clamp_right_pad"
+    ],
+    [
+      "robot_collision_base_4",
+      "clamp_left_rail"
+    ],
+    [
+      "robot_collision_base_4",
+      "clamp_left_upper_jaw"
+    ],
+    [
+      "robot_collision_base_4",
+      "clamp_left_lower_jaw"
+    ],
+    [
+      "robot_collision_base_4",
+      "clamp_left_screw"
+    ],
+    [
+      "robot_collision_base_4",
+      "clamp_left_pad"
+    ],
+    [
+      "robot_collision_base_4",
+      "under_base_keepout"
+    ],
+    [
+      "robot_collision_base_5",
+      "desk_top"
+    ],
+    [
+      "robot_collision_base_5",
+      "desk_leg_0_0"
+    ],
+    [
+      "robot_collision_base_5",
+      "desk_leg_0_1"
+    ],
+    [
+      "robot_collision_base_5",
+      "desk_leg_1_0"
+    ],
+    [
+      "robot_collision_base_5",
+      "desk_leg_1_1"
+    ],
+    [
+      "robot_collision_base_5",
+      "clamp_right_rail"
+    ],
+    [
+      "robot_collision_base_5",
+      "clamp_right_upper_jaw"
+    ],
+    [
+      "robot_collision_base_5",
+      "clamp_right_lower_jaw"
+    ],
+    [
+      "robot_collision_base_5",
+      "clamp_right_screw"
+    ],
+    [
+      "robot_collision_base_5",
+      "clamp_right_pad"
+    ],
+    [
+      "robot_collision_base_5",
+      "clamp_left_rail"
+    ],
+    [
+      "robot_collision_base_5",
+      "clamp_left_upper_jaw"
+    ],
+    [
+      "robot_collision_base_5",
+      "clamp_left_lower_jaw"
+    ],
+    [
+      "robot_collision_base_5",
+      "clamp_left_screw"
+    ],
+    [
+      "robot_collision_base_5",
+      "clamp_left_pad"
+    ],
+    [
+      "robot_collision_base_5",
+      "under_base_keepout"
+    ],
+    [
+      "robot_collision_base_6",
+      "desk_top"
+    ],
+    [
+      "robot_collision_base_6",
+      "desk_leg_0_0"
+    ],
+    [
+      "robot_collision_base_6",
+      "desk_leg_0_1"
+    ],
+    [
+      "robot_collision_base_6",
+      "desk_leg_1_0"
+    ],
+    [
+      "robot_collision_base_6",
+      "desk_leg_1_1"
+    ],
+    [
+      "robot_collision_base_6",
+      "clamp_right_rail"
+    ],
+    [
+      "robot_collision_base_6",
+      "clamp_right_upper_jaw"
+    ],
+    [
+      "robot_collision_base_6",
+      "clamp_right_lower_jaw"
+    ],
+    [
+      "robot_collision_base_6",
+      "clamp_right_screw"
+    ],
+    [
+      "robot_collision_base_6",
+      "clamp_right_pad"
+    ],
+    [
+      "robot_collision_base_6",
+      "clamp_left_rail"
+    ],
+    [
+      "robot_collision_base_6",
+      "clamp_left_upper_jaw"
+    ],
+    [
+      "robot_collision_base_6",
+      "clamp_left_lower_jaw"
+    ],
+    [
+      "robot_collision_base_6",
+      "clamp_left_screw"
+    ],
+    [
+      "robot_collision_base_6",
+      "clamp_left_pad"
+    ],
+    [
+      "robot_collision_base_6",
+      "under_base_keepout"
+    ],
+    [
+      "robot_collision_base_7",
+      "desk_top"
+    ],
+    [
+      "robot_collision_base_7",
+      "desk_leg_0_0"
+    ],
+    [
+      "robot_collision_base_7",
+      "desk_leg_0_1"
+    ],
+    [
+      "robot_collision_base_7",
+      "desk_leg_1_0"
+    ],
+    [
+      "robot_collision_base_7",
+      "desk_leg_1_1"
+    ],
+    [
+      "robot_collision_base_7",
+      "clamp_right_rail"
+    ],
+    [
+      "robot_collision_base_7",
+      "clamp_right_upper_jaw"
+    ],
+    [
+      "robot_collision_base_7",
+      "clamp_right_lower_jaw"
+    ],
+    [
+      "robot_collision_base_7",
+      "clamp_right_screw"
+    ],
+    [
+      "robot_collision_base_7",
+      "clamp_right_pad"
+    ],
+    [
+      "robot_collision_base_7",
+      "clamp_left_rail"
+    ],
+    [
+      "robot_collision_base_7",
+      "clamp_left_upper_jaw"
+    ],
+    [
+      "robot_collision_base_7",
+      "clamp_left_lower_jaw"
+    ],
+    [
+      "robot_collision_base_7",
+      "clamp_left_screw"
+    ],
+    [
+      "robot_collision_base_7",
+      "clamp_left_pad"
+    ],
+    [
+      "robot_collision_base_7",
+      "under_base_keepout"
+    ]
+  ],
+  "collision_note": "SO101 CAD mesh collision is convex-hull approximation. Drone has padded body/arm/motor and 4 full swept prop volumes. Check every enabled geom pair except explicit assembly exclusions.",
+  "added_mass_kg": 0.038,
+  "drone_with_accessories_mass_kg": 0.033,
+  "drone_com_local_m": [
+    0.0,
+    0.0,
+    -0.0024242424242424242
+  ],
+  "imu_site": "imu",
+  "object_com_site": "payload_com",
+  "drone_com_site": "drone_com",
+  "site_status": {
+    "imu": "UNMEASURED reference-frame placeholder. Measure chip/frame offset and firmware axes before force inference.",
+    "payload_com": "UNMEASURED held object COM placeholder at gripperframe; independent from drone mass and COM."
+  },
+  "mount_config": "configs/mount.json",
+  "source_xml_sha256": "d75253eb568e8a7214db9c631ab7bed4217f608a26f7276ebe9a7636cac82580",
+  "mount_config_sha256": "64dfc9fc4782fc35253d4574f2e2fcb26f4b78a03b9f13e7896cd9ee3a267601",
+  "menagerie_commit": "4d038b3feae26ec82b46a4d586379114012a8ac7",
+  "units": {
+    "length": "m",
+    "angle": "rad",
+    "mass": "kg",
+    "inertia": "kg*m^2"
+  },
+  "environment": {
+    "status": "PROVISIONAL dimensions: replace desk, clamp and keepout measurements before real execution",
+    "source_model": "models/so101_crazyflie/scene.xml",
+    "source_policy": "models/so101_crazyflie/model_info.json",
+    "desktop": {
+      "front_edge_x_m": 0.08,
+      "depth_m": 0.75,
+      "width_m": 1.2,
+      "top_z_m": -0.0025,
+      "thickness_m": 0.03
+    },
+    "room_floor_z_m": -0.75,
+    "clamps": [
+      {
+        "name": "clamp_right",
+        "y_m": 0.06,
+        "rail_x_m": 0.11,
+        "rail_bottom_z_m": -0.33,
+        "rail_top_z_m": 0.05,
+        "rail_width_m": 0.014,
+        "jaw_inner_x_m": 0.01,
+        "jaw_width_m": 0.024,
+        "upper_jaw_center_z_m": 0.015,
+        "jaw_thickness_m": 0.012,
+        "lower_jaw_center_z_m": -0.115,
+        "screw_x_m": 0.035,
+        "screw_radius_m": 0.006,
+        "pad_radius_m": 0.014,
+        "pad_thickness_m": 0.006
+      },
+      {
+        "name": "clamp_left",
+        "y_m": -0.06,
+        "rail_x_m": 0.11,
+        "rail_bottom_z_m": -0.33,
+        "rail_top_z_m": 0.05,
+        "rail_width_m": 0.014,
+        "jaw_inner_x_m": 0.01,
+        "jaw_width_m": 0.024,
+        "upper_jaw_center_z_m": 0.015,
+        "jaw_thickness_m": 0.012,
+        "lower_jaw_center_z_m": -0.115,
+        "screw_x_m": 0.035,
+        "screw_radius_m": 0.006,
+        "pad_radius_m": 0.014,
+        "pad_thickness_m": 0.006
+      }
+    ],
+    "under_base_keepout": {
+      "enabled": true,
+      "x_bounds_m": [
+        -0.07,
+        0.085
+      ],
+      "y_bounds_m": [
+        -0.1,
+        0.1
+      ],
+      "bottom_z_m": -0.74,
+      "top_z_m": -0.0025
+    },
+    "extra_obstacles": [],
+    "camera": {
+      "lookat_m": [
+        0.06,
+        0,
+        0.07
+      ],
+      "distance_m": 0.85,
+      "azimuth_deg": 125,
+      "elevation_deg": -18
+    }
+  },
+  "environment_geom_names": [
+    "desk_top",
+    "desk_leg_0_0",
+    "desk_leg_0_1",
+    "desk_leg_1_0",
+    "desk_leg_1_1",
+    "clamp_right_rail",
+    "clamp_right_upper_jaw",
+    "clamp_right_lower_jaw",
+    "clamp_right_screw",
+    "clamp_right_pad",
+    "clamp_left_rail",
+    "clamp_left_upper_jaw",
+    "clamp_left_lower_jaw",
+    "clamp_left_screw",
+    "clamp_left_pad",
+    "under_base_keepout"
+  ],
+  "environment_config_sha256": "ff4f422cbf4d662f4d71903330fa0a59cfc2a68848026e0c6b2ee38f719dcf13",
+  "source_scene_sha256": "6ca3e48485ea2c987421676e5692a02bae84fac3a0a69e51303bc1103017563b",
+  "support_exclusion_note": "Fixed base geoms only against bench fixtures. Every moving robot/drone geom remains checked."
+}

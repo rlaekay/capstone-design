@@ -1,0 +1,135 @@
+{
+  "model": "models/bench/scene.xml",
+  "collision_policy_file": "models/bench/model_info.json",
+  "robot_root_body": "base",
+  "obstacles": [],
+  "joint_names": [
+    "shoulder_pan",
+    "shoulder_lift",
+    "elbow_flex",
+    "wrist_flex",
+    "wrist_roll"
+  ],
+  "fixed_joints": {
+    "gripper": 1.2
+  },
+  "clearance_m": 0.005,
+  "edge_resolution_rad": 0.01,
+  "joint_margin_rad": 0.005,
+  "sample_period_s": 0.01,
+  "max_velocity_rad_s": [
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0
+  ],
+  "max_acceleration_rad_s2": [
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0
+  ],
+  "duration_s": 21.880000000000003,
+  "ramp_s": 4.0,
+  "seed": 20564019,
+  "center_rad": [
+    -0.12289577066714841,
+    -1.0042975041285147,
+    0.28178440144103495,
+    0.9571291383160176,
+    1.363774276765802
+  ],
+  "amplitudes_rad": [
+    0.35,
+    0.16,
+    0.18,
+    0.2,
+    0.25
+  ],
+  "frequencies_hz": [
+    [
+      0.07,
+      0.11
+    ],
+    [
+      0.09,
+      0.13
+    ],
+    [
+      0.08,
+      0.14
+    ],
+    [
+      0.11,
+      0.17
+    ],
+    [
+      0.1,
+      0.16
+    ]
+  ],
+  "profile": "revised_saved_spline",
+  "initial_hold_s": 4.94,
+  "final_hold_s": 4.940000000000001,
+  "segments": [],
+  "broad_phase": true,
+  "training_window_s": [
+    4.94,
+    16.94
+  ],
+  "training_duration_s": 12.0,
+  "revised_blocks": [
+    {
+      "name": "reverse_chirp",
+      "start_s": 5.69,
+      "end_s": 16.19,
+      "center_rad": [
+        -0.12289577066714841,
+        -1.0042975041285147,
+        0.28178440144103495,
+        0.9571291383160176,
+        1.363774276765802
+      ],
+      "duration_s": 10.5,
+      "ramp_s": 2.0,
+      "amplitudes_rad": [
+        0.2605895492415082,
+        0.22960964169569262,
+        0.30621004493313314,
+        0.27941081652286787,
+        0.2592755656278263
+      ],
+      "frequency_start_hz": [
+        0.9839460883203266,
+        1.0482255480774905,
+        0.8168557862346713,
+        0.9070812436694136,
+        0.8485511670906987
+      ],
+      "frequency_end_hz": [
+        0.19690287273354806,
+        0.24670724866257057,
+        0.2430998376958896,
+        0.314825817020995,
+        0.17803389085482968
+      ]
+    }
+  ],
+  "source_provenance": null,
+  "time_scale_factor": 1.0,
+  "library": {
+    "family": "reverse_chirp",
+    "index": 3,
+    "attempt": 4,
+    "home_rad": [
+      0.0,
+      -0.6,
+      0.6,
+      0.0,
+      0.0
+    ],
+    "intended_use": "simulation reference; not measured training data"
+  }
+}

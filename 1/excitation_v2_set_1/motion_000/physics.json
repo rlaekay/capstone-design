@@ -1,0 +1,50 @@
+{
+  "mode": "simulation_only_position_servo_physics",
+  "completed": true,
+  "stopped_reason": null,
+  "simulated_seconds": 19.70199999999996,
+  "physics_steps": 9851,
+  "collision_check_period_s": 0.002,
+  "minimum_sampled_clearance_m": 0.005554285834164201,
+  "closest_geom_pair": [
+    "clamp_right_upper_jaw",
+    "robot_collision_shoulder_5"
+  ],
+  "joint_order": [
+    "shoulder_pan",
+    "shoulder_lift",
+    "elbow_flex",
+    "wrist_flex",
+    "wrist_roll",
+    "gripper"
+  ],
+  "max_absolute_tracking_error_rad": [
+    0.06932059877959326,
+    0.06756973797328752,
+    0.08222660166440215,
+    0.04405817700043618,
+    0.07152330052398415,
+    5.672323072070107e-05
+  ],
+  "max_absolute_velocity_rad_s": [
+    1.3169893580421974,
+    1.0618530641596353,
+    1.352231309594183,
+    0.816117693594462,
+    1.3503153031658977,
+    8.816848318063026e-05
+  ],
+  "max_absolute_acceleration_rad_s2": [
+    3.7469847878995566,
+    5.003375645446133,
+    9.880096569537523,
+    2.6083998829131905,
+    4.8241049337319755,
+    0.0006799413811860289
+  ],
+  "tracking_tolerance_rad": 0.12,
+  "continuous_collision_guarantee": false,
+  "hardware_safety_certification": false,
+  "compiled_model_sha256": "6b179e7803580a052030ba4c6ffea389d23438b50b34063595ddc65bcda7420c",
+  "trajectory": "/home/robocup-home/kjt/force_modeling/outputs/excitation_v2_set_1/motion_000/trajectory.npz"
+}

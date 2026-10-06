@@ -1,0 +1,747 @@
+{
+  "id": "T0066_20261006-221601",
+  "num": 66,
+  "label": "",
+  "state": "ready",
+  "auto": true,
+  "reason": "motion",
+  "started_unix": 1791292560.7029202,
+  "t0_ns": 824241491253520,
+  "clock_anchor": {
+    "unix_ns": 1791292258554889000,
+    "mono_ns": 823939343222291
+  },
+  "host_clock": "time.monotonic_ns (macOS)",
+  "joint_names": [
+    "shoulder_pan",
+    "shoulder_lift",
+    "elbow_flex",
+    "wrist_flex",
+    "wrist_roll",
+    "gripper"
+  ],
+  "servo_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "calib": {
+    "follower": {
+      "port": "/dev/cu.usbmodem5AAF2651691",
+      "ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "voltage": 12.0,
+      "range_min": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "range_max": [
+        4095,
+        4095,
+        4095,
+        4095,
+        4095,
+        4095
+      ],
+      "mid": [
+        2047.5,
+        2047.5,
+        2047.5,
+        2047.5,
+        2047.5,
+        2047.5
+      ],
+      "calibrated": false,
+      "servo_config": {
+        "1": {
+          "firmware": "3.10",
+          "model": 777,
+          "return_delay": 0,
+          "min_limit": 0,
+          "max_limit": 4095,
+          "max_torque": 1000,
+          "p_coef": 16,
+          "d_coef": 24,
+          "i_coef": 0,
+          "protection_current": 310,
+          "homing_offset": -1755,
+          "operating_mode": 0,
+          "overload_torque": 80
+        },
+        "2": {
+          "firmware": "3.10",
+          "model": 777,
+          "return_delay": 0,
+          "min_limit": 0,
+          "max_limit": 4095,
+          "max_torque": 1000,
+          "p_coef": 40,
+          "d_coef": 32,
+          "i_coef": 2,
+          "protection_current": 310,
+          "homing_offset": -1217,
+          "operating_mode": 0,
+          "overload_torque": 80
+        },
+        "3": {
+          "firmware": "3.10",
+          "model": 777,
+          "return_delay": 0,
+          "min_limit": 0,
+          "max_limit": 4095,
+          "max_torque": 1000,
+          "p_coef": 40,
+          "d_coef": 32,
+          "i_coef": 2,
+          "protection_current": 310,
+          "homing_offset": -1805,
+          "operating_mode": 0,
+          "overload_torque": 80
+        },
+        "4": {
+          "firmware": "3.10",
+          "model": 777,
+          "return_delay": 0,
+          "min_limit": 0,
+          "max_limit": 4095,
+          "max_torque": 1000,
+          "p_coef": 64,
+          "d_coef": 16,
+          "i_coef": 0,
+          "protection_current": 310,
+          "homing_offset": -335,
+          "operating_mode": 0,
+          "overload_torque": 80
+        },
+        "5": {
+          "firmware": "3.10",
+          "model": 777,
+          "return_delay": 0,
+          "min_limit": 0,
+          "max_limit": 4095,
+          "max_torque": 1000,
+          "p_coef": 64,
+          "d_coef": 0,
+          "i_coef": 0,
+          "protection_current": 310,
+          "homing_offset": -1518,
+          "operating_mode": 0,
+          "overload_torque": 80
+        },
+        "6": {
+          "firmware": "3.10",
+          "model": 777,
+          "return_delay": 0,
+          "min_limit": 0,
+          "max_limit": 4095,
+          "max_torque": 1000,
+          "p_coef": 32,
+          "d_coef": 32,
+          "i_coef": 0,
+          "protection_current": 310,
+          "homing_offset": 1086,
+          "operating_mode": 0,
+          "overload_torque": 80
+        }
+      }
+    }
+  },
+  "arm_status": {
+    "mode": "hw",
+    "follower": {
+      "connected": true,
+      "port": "/dev/cu.usbmodem5AAF2651691",
+      "ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "missing": [],
+      "voltage": 12.0,
+      "calibrated": false
+    },
+    "leader": {
+      "connected": false,
+      "disabled": true
+    },
+    "teleop": "off",
+    "soft_start": false,
+    "script_t0_ns": null,
+    "script_progress": null,
+    "message": "팔로워 토크 꺼짐",
+    "port_notes": {}
+  },
+  "cf_status": {
+    "mode": "hw",
+    "state": "connected",
+    "uri": "radio://0/80/2M/E7E7E7E7E8",
+    "message": "연결됨 radio://0/80/2M/E7E7E7E7E8",
+    "battery_v": 3.6105573177337646,
+    "link_quality": 100.0,
+    "has_att": true
+  },
+  "sim": false,
+  "config": {
+    "follower_port": "auto",
+    "leader_port": "none",
+    "baudrate": 1000000,
+    "servo_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "joint_names": [
+      "shoulder_pan",
+      "shoulder_lift",
+      "elbow_flex",
+      "wrist_flex",
+      "wrist_roll",
+      "gripper"
+    ],
+    "arm_rate_hz": 100.0,
+    "follower_min_voltage": 8.0,
+    "teleop_autostart": false,
+    "teleop_mapping": "range",
+    "follower_acceleration": 254,
+    "soft_start_max_dps": 60.0,
+    "soft_start_timeout_s": 5.0,
+    "cf_enabled": true,
+    "cf_uri": "radio://0/80/2M/E7E7E7E7E8",
+    "imu_period_ms": 10,
+    "imu_latency_ms": 0.0,
+    "payload_mass_g": null,
+    "accel_point": "payload",
+    "auto_trial": true,
+    "motion_window_s": 0.2,
+    "motion_thresh_deg": 1.5,
+    "idle_stop_s": 3.0,
+    "pre_roll_s": 1.0,
+    "standby_after_s": 60.0,
+    "host": "0.0.0.0",
+    "port": 8080,
+    "allow_remote_control": false,
+    "data_dir": "/Users/dmdrb/my/Artemis/na_logger/data",
+    "live_window_s": 15.0
+  },
+  "align_calib": {
+    "R_gi": [
+      [
+        -0.29182009013273674,
+        0.08804913797482462,
+        0.9524118774442133
+      ],
+      [
+        -0.11571338913855451,
+        -0.9916900170461,
+        0.05622563174544967
+      ],
+      [
+        0.9494479693848368,
+        -0.0937990372711564,
+        0.2995835343239237
+      ]
+    ],
+    "p_gi": [
+      -0.03603936787315944,
+      -0.006943455510783949,
+      -0.07288560135989015
+    ],
+    "p_source": "estimated",
+    "p_estimated": [
+      -0.03603936787315944,
+      -0.006943455510783949,
+      -0.07288560135989015
+    ],
+    "p_nominal": [
+      -0.03642628537345485,
+      -0.010520411585853118,
+      -0.06696680577174134
+    ],
+    "p_split_halves_mm": [
+      -35.8,
+      -6.3,
+      -74.4,
+      -36.1,
+      -7.2,
+      -72.0
+    ],
+    "p_split_diff_mm": 2.5925188938303614,
+    "p_from_nominal_mm": 6.926504250290973,
+    "fit_lpf_hz": 3.0,
+    "R_nominal": [
+      [
+        -0.2884595589654971,
+        0.09419365282359628,
+        0.952847647113209
+      ],
+      [
+        -0.11961508576712442,
+        -0.9908985617124966,
+        0.061743596048732245
+      ],
+      [
+        0.94999121790591,
+        -0.09616442254728808,
+        0.2971011439523454
+      ]
+    ],
+    "angle_from_nominal_deg": 0.42023360217824884,
+    "gyro_bias_dps": [
+      -0.035407466678179414,
+      0.005528824720439557,
+      0.03411071530246988
+    ],
+    "acc_bias_g": [
+      0.0025765090258873602,
+      -0.01024436009295057,
+      -0.009868287645452162
+    ],
+    "acc_scale": [
+      1.0148268686629387,
+      1.014925911292776,
+      1.0073961369134774
+    ],
+    "n_static_poses": 25,
+    "lag_ms": 7.451662009013282,
+    "lag_info": {
+      "lag_ms": 7.451662009013282,
+      "r2": 0.9921287211231797,
+      "corr": 0.996056585301849,
+      "method": "lstsq(|gyro|^2 ~ qd^T M qd)",
+      "reliable": true
+    },
+    "acc_extra_lag_ms": 4.7,
+    "joint_map": {
+      "sign": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset_deg": [
+        0.0,
+        0.0,
+        0.0,
+        -3.7000000000000037,
+        0.0,
+        0.0
+      ]
+    },
+    "pitch_offset_deg": 0.5,
+    "residuals": {
+      "gyro_rms_dps": 1.095045676234929,
+      "gravity_rms_deg": 0.7848701257112389,
+      "gyro_rms_dps_unfiltered": 3.381334128115183,
+      "acc_rms_mps2": 0.13569725390133205,
+      "n_samples": 17807,
+      "n_static": 3250,
+      "lever_sv_min": 2.1189102070131383
+    },
+    "sign_warnings": [],
+    "quality": "good",
+    "id": "align_20261006-221536",
+    "created_unix": 1791292536.403907,
+    "trial_id": "T0065_20261006-221233",
+    "segments": [
+      {
+        "kind": "static",
+        "t0": 1.015122833,
+        "t1": 3.215122833,
+        "label": "정지 자세 1"
+      },
+      {
+        "kind": "move",
+        "t0": 3.215122833,
+        "t1": 9.465122832999999,
+        "label": "정지 자세 2로 이동"
+      },
+      {
+        "kind": "static",
+        "t0": 9.465122832999999,
+        "t1": 11.665122832999998,
+        "label": "정지 자세 2"
+      },
+      {
+        "kind": "move",
+        "t0": 11.665122832999998,
+        "t1": 13.748456166333332,
+        "label": "정지 자세 3로 이동"
+      },
+      {
+        "kind": "static",
+        "t0": 13.748456166333332,
+        "t1": 15.948456166333333,
+        "label": "정지 자세 3"
+      },
+      {
+        "kind": "move",
+        "t0": 15.948456166333333,
+        "t1": 18.031789499666665,
+        "label": "정지 자세 4로 이동"
+      },
+      {
+        "kind": "static",
+        "t0": 18.031789499666665,
+        "t1": 20.231789499666665,
+        "label": "정지 자세 4"
+      },
+      {
+        "kind": "move",
+        "t0": 20.231789499666665,
+        "t1": 24.398456166333332,
+        "label": "정지 자세 5로 이동"
+      },
+      {
+        "kind": "static",
+        "t0": 24.398456166333332,
+        "t1": 26.59845616633333,
+        "label": "정지 자세 5"
+      },
+      {
+        "kind": "move",
+        "t0": 26.59845616633333,
+        "t1": 28.681789499666664,
+        "label": "정지 자세 6로 이동"
+      },
+      {
+        "kind": "static",
+        "t0": 28.681789499666664,
+        "t1": 30.881789499666663,
+        "label": "정지 자세 6"
+      },
+      {
+        "kind": "move",
+        "t0": 30.881789499666663,
+        "t1": 32.793332930561505,
+        "label": "정지 자세 7로 이동"
+      },
+      {
+        "kind": "static",
+        "t0": 32.793332930561505,
+        "t1": 34.99333293056151,
+        "label": "정지 자세 7"
+      },
+      {
+        "kind": "move",
+        "t0": 34.99333293056151,
+        "t1": 47.32154302812302,
+        "label": "정지 자세 8로 이동"
+      },
+      {
+        "kind": "static",
+        "t0": 47.32154302812302,
+        "t1": 49.52154302812302,
+        "label": "정지 자세 8"
+      },
+      {
+        "kind": "move",
+        "t0": 49.52154302812302,
+        "t1": 51.604876361456355,
+        "label": "정지 자세 9로 이동"
+      },
+      {
+        "kind": "static",
+        "t0": 51.604876361456355,
+        "t1": 53.80487636145636,
+        "label": "정지 자세 9"
+      },
+      {
+        "kind": "move",
+        "t0": 53.80487636145636,
+        "t1": 55.888209694789694,
+        "label": "정지 자세 10로 이동"
+      },
+      {
+        "kind": "static",
+        "t0": 55.888209694789694,
+        "t1": 58.0882096947897,
+        "label": "정지 자세 10"
+      },
+      {
+        "kind": "move",
+        "t0": 58.0882096947897,
+        "t1": 60.17154302812303,
+        "label": "정지 자세 11로 이동"
+      },
+      {
+        "kind": "static",
+        "t0": 60.17154302812303,
+        "t1": 62.371543028123035,
+        "label": "정지 자세 11"
+      },
+      {
+        "kind": "move",
+        "t0": 62.371543028123035,
+        "t1": 64.45487636145637,
+        "label": "정지 자세 12로 이동"
+      },
+      {
+        "kind": "static",
+        "t0": 64.45487636145637,
+        "t1": 66.65487636145637,
+        "label": "정지 자세 12"
+      },
+      {
+        "kind": "move",
+        "t0": 66.65487636145637,
+        "t1": 68.7382096947897,
+        "label": "정지 자세 13로 이동"
+      },
+      {
+        "kind": "static",
+        "t0": 68.7382096947897,
+        "t1": 70.9382096947897,
+        "label": "정지 자세 13"
+      },
+      {
+        "kind": "move",
+        "t0": 70.9382096947897,
+        "t1": 72.84975312568454,
+        "label": "정지 자세 14로 이동"
+      },
+      {
+        "kind": "static",
+        "t0": 72.84975312568454,
+        "t1": 75.04975312568455,
+        "label": "정지 자세 14"
+      },
+      {
+        "kind": "move",
+        "t0": 75.04975312568455,
+        "t1": 87.37796322324606,
+        "label": "정지 자세 15로 이동"
+      },
+      {
+        "kind": "static",
+        "t0": 87.37796322324606,
+        "t1": 89.57796322324606,
+        "label": "정지 자세 15"
+      },
+      {
+        "kind": "move",
+        "t0": 89.57796322324606,
+        "t1": 91.66129655657939,
+        "label": "정지 자세 16로 이동"
+      },
+      {
+        "kind": "static",
+        "t0": 91.66129655657939,
+        "t1": 93.86129655657939,
+        "label": "정지 자세 16"
+      },
+      {
+        "kind": "move",
+        "t0": 93.86129655657939,
+        "t1": 95.94462988991272,
+        "label": "정지 자세 17로 이동"
+      },
+      {
+        "kind": "static",
+        "t0": 95.94462988991272,
+        "t1": 98.14462988991272,
+        "label": "정지 자세 17"
+      },
+      {
+        "kind": "move",
+        "t0": 98.14462988991272,
+        "t1": 100.22796322324605,
+        "label": "정지 자세 18로 이동"
+      },
+      {
+        "kind": "static",
+        "t0": 100.22796322324605,
+        "t1": 102.42796322324605,
+        "label": "정지 자세 18"
+      },
+      {
+        "kind": "move",
+        "t0": 102.42796322324605,
+        "t1": 104.51129655657938,
+        "label": "정지 자세 19로 이동"
+      },
+      {
+        "kind": "static",
+        "t0": 104.51129655657938,
+        "t1": 106.71129655657938,
+        "label": "정지 자세 19"
+      },
+      {
+        "kind": "move",
+        "t0": 106.71129655657938,
+        "t1": 108.79462988991271,
+        "label": "정지 자세 20로 이동"
+      },
+      {
+        "kind": "static",
+        "t0": 108.79462988991271,
+        "t1": 110.99462988991272,
+        "label": "정지 자세 20"
+      },
+      {
+        "kind": "move",
+        "t0": 110.99462988991272,
+        "t1": 112.90617332080755,
+        "label": "정지 자세 21로 이동"
+      },
+      {
+        "kind": "static",
+        "t0": 112.90617332080755,
+        "t1": 115.10617332080756,
+        "label": "정지 자세 21"
+      },
+      {
+        "kind": "move",
+        "t0": 115.10617332080756,
+        "t1": 119.30938341836907,
+        "label": "정지 자세 22로 이동"
+      },
+      {
+        "kind": "static",
+        "t0": 119.30938341836907,
+        "t1": 121.50938341836907,
+        "label": "정지 자세 22"
+      },
+      {
+        "kind": "move",
+        "t0": 121.50938341836907,
+        "t1": 125.88438341836907,
+        "label": "정지 자세 23로 이동"
+      },
+      {
+        "kind": "static",
+        "t0": 125.88438341836907,
+        "t1": 128.08438341836907,
+        "label": "정지 자세 23"
+      },
+      {
+        "kind": "move",
+        "t0": 128.08438341836907,
+        "t1": 134.33438341836907,
+        "label": "정지 자세 24로 이동"
+      },
+      {
+        "kind": "static",
+        "t0": 134.33438341836907,
+        "t1": 136.53438341836906,
+        "label": "정지 자세 24"
+      },
+      {
+        "kind": "move",
+        "t0": 136.53438341836906,
+        "t1": 140.28438341836906,
+        "label": "정지 자세 25로 이동"
+      },
+      {
+        "kind": "static",
+        "t0": 140.28438341836906,
+        "t1": 142.48438341836905,
+        "label": "정지 자세 25"
+      },
+      {
+        "kind": "excite",
+        "t0": 142.48438341836905,
+        "t1": 148.48438341836905,
+        "label": "wrist_roll 흔들기"
+      },
+      {
+        "kind": "excite",
+        "t0": 148.48438341836905,
+        "t1": 153.48438341836905,
+        "label": "wrist_flex 흔들기"
+      },
+      {
+        "kind": "excite",
+        "t0": 153.48438341836905,
+        "t1": 158.48438341836905,
+        "label": "elbow 흔들기"
+      },
+      {
+        "kind": "excite",
+        "t0": 158.48438341836905,
+        "t1": 163.48438341836905,
+        "label": "shoulder_lift 흔들기"
+      },
+      {
+        "kind": "excite",
+        "t0": 163.48438341836905,
+        "t1": 168.48438341836905,
+        "label": "shoulder_pan 흔들기"
+      },
+      {
+        "kind": "excite",
+        "t0": 168.48438341836905,
+        "t1": 178.48438341836905,
+        "label": "전체 섞기"
+      },
+      {
+        "kind": "static",
+        "t0": 178.48438341836905,
+        "t1": 179.48438341836905,
+        "label": "완료"
+      }
+    ],
+    "model": "scene.xml",
+    "q_start_deg": [
+      -6.197802197802198,
+      -17.714285714285715,
+      12.87912087912088,
+      -3.384615384615385,
+      11.912087912087912,
+      16.747252747252748
+    ],
+    "sim": false
+  },
+  "payload_mass_g": null,
+  "stopped_unix": 1791292567.712905,
+  "stop_reason": "idle",
+  "end_ns": 824248501238249,
+  "duration_s": 7.000047854,
+  "n_arm": 701,
+  "n_imu": 701,
+  "n_att": 702,
+  "arm_rate_hz": 100.15314918808157,
+  "arm_dt_p99_ms": 11.630903829999903,
+  "imu_rate_hz": 100.05315703972384,
+  "imu_coverage": 0.9985734664764622,
+  "clock_fit": {
+    "n": 1403,
+    "bins": 8,
+    "bins_used": 8,
+    "drift_ppm": -531.2879835981737,
+    "envelope_jitter_ms": 0.12580316375006373,
+    "rx_excess_median_ms": 0.8296591422986239,
+    "rx_excess_p95_ms": 1.3155325016472488,
+    "segments": 1
+  },
+  "imu_lag": {
+    "lag_ms": -0.16913367970563392,
+    "r2": 0.9542654242749401,
+    "corr": 0.9768651003464809,
+    "method": "lstsq(|gyro|^2 ~ qd^T M qd)",
+    "reliable": true,
+    "lag_ms_after_correction": -0.16913367970563392
+  },
+  "finalized_unix": 1791292567.7936692,
+  "max_temp_C": 42.0
+}

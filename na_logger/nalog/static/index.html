@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NA Logger</title>
+<link rel="stylesheet" href="/static/vendor/uPlot.min.css">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <span class="logo">NA</span>
+    <div class="brand-text"><b>Neural Actuator Logger</b><small id="mode">SO-101 × Crazyflie</small></div>
+  </div>
+  <div class="pills">
+    <span class="pill off" id="p-follower" title=""><i></i><span>팔로워</span><b>—</b></span>
+    <span class="pill off" id="p-cf" title=""><i></i><span>Crazyflie</span><b>—</b></span>
+    <span class="pill off" id="p-sync" title=""><i></i><span>시간 동기</span><b>—</b></span>
+  </div>
+  <div class="rec">
+    <label class="switch" title="팔로워가 움직이면 회차를 자동으로 시작하고, 멈추면 자동으로 끊습니다">
+      <input type="checkbox" id="auto"><span class="track"></span><span>자동 회차</span>
+    </label>
+    <button id="btn-rec" class="btn rec-btn">● 기록 시작</button>
+    <span id="rec-info" class="rec-info"></span>
+  </div>
+</header>
+
+<div id="conn-banner" class="conn-banner" hidden>서버 연결 끊김 — 재연결 중…</div>
+
+<main class="layout">
+  <section class="charts">
+    <div class="bar">
+      <div class="seg" id="joint-seg" role="tablist" aria-label="관절 선택"></div>
+      <div class="seg" id="win-seg" aria-label="시간 창">
+        <button data-w="5">5초</button><button data-w="10" class="on">10초</button><button data-w="15">15초</button>
+      </div>
+      <div id="review-banner" class="review-banner" hidden>
+        <span id="review-title"></span>
+        <button id="btn-live" class="btn small">라이브로 돌아가기</button>
+      </div>
+    </div>
+    <div class="card chart-card"><h3>관절 위치 <small>° · 전체 관절</small></h3><div class="chart" id="c-pos" data-h="190"></div></div>
+    <div class="card chart-card"><h3><span id="jname">—</span> 명령 vs 실제 <small>° · 명령(Goal_Position) / 실제(Present_Position)</small></h3><div class="chart" id="c-joint" data-h="170"></div></div>
+    <div class="card chart-card"><h3><span id="jname2">—</span> 속도 · 부하 <small title="부하 = 서보 Present_Load 레지스터: 모터에 거는 PWM 출력 비율(최대 대비 %), 부호는 방향. 토크 측정값이 아니라 서보가 내는 '힘쓰는 정도'의 지표입니다. NeuralActuator가 SO-101 effort 입력으로 쓰는 값.">°/s (왼쪽) · 부하 % = PWM 출력 비율 (오른쪽) ⓘ</small></h3><div class="chart" id="c-eff" data-h="150"></div></div>
+    <div class="card chart-card"><h3>IMU 자이로 <small>°/s · Crazyflie</small></h3><div class="chart" id="c-gyro" data-h="150"></div></div>
+    <div class="card chart-card"><h3>IMU 가속도 <small>g · Crazyflie</small></h3><div class="chart" id="c-acc" data-h="130"></div></div>
+  </section>
+
+  <aside class="side">
+    <div class="card">
+      <h3>관절 상태</h3>
+      <div class="table-wrap">
+        <table id="jtable">
+          <thead><tr><th>관절</th><th>실제°</th><th>명령°</th><th>오차°</th><th>°/s</th><th title="Present_Load: 모터 PWM 출력 비율 (최대 대비 %, 부호 = 방향). 토크 측정값 아님">부하% ⓘ</th><th>mA</th><th>°C</th><th>V</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+    <div class="card" id="align-card">
+      <h3>IMU 정렬 (alignid) <span id="align-badge" class="badge">—</span></h3>
+      <p class="muted small" style="margin:0 0 8px">버튼 한 번으로 팔이 약 90초 동안 정해진 동작(정지 자세 9개 + 관절별 흔들기)을 하고,
+        드론 IMU가 그리퍼에 붙은 회전·위치·시간지연을 계산합니다. 시작 자세는 지금 자세이며, 출발 전에 관절 범위와 충돌(모델 기준)을 점검합니다.</p>
+      <div class="progress" id="align-progress" hidden><div id="align-bar"></div></div>
+      <p id="align-step" class="small" style="margin:6px 0"></p>
+      <div id="align-ctl" class="btn-row"></div>
+      <div id="align-result" class="align-result"></div>
+    </div>
+    <div class="card trials-card">
+      <h3>회차 <a class="btn small ghost" href="/api/all.zip" download>전체 CSV (zip)</a></h3>
+      <label class="payload-row" title="새 회차부터 적용. 입력하면 merged.csv에 force label F = m(g − a_payload) 열이 추가됩니다">
+        페이로드 질량 <input id="payload" type="number" min="0" step="1" placeholder="예: 200"> g
+        <span class="muted small">(새 회차부터 적용 · force label 생성)</span>
+      </label>
+      <div id="trials" class="trials"></div>
+    </div>
+    <div class="card">
+      <h3>접속 주소 <small>같은 Wi-Fi</small></h3>
+      <div id="urls" class="urls"></div>
+    </div>
+  </aside>
+</main>
+
+<div id="standby" class="standby" hidden>
+  <div class="standby-box">
+    <div class="pulse" aria-hidden="true"></div>
+    <h2>대기 중</h2>
+    <p>로봇이 움직이기 시작하면 화면이 자동으로 켜집니다</p>
+    <ul id="standby-list" class="standby-list"></ul>
+    <button id="btn-peek" class="btn ghost">지금 보기</button>
+  </div>
+</div>
+
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<script src="/static/vendor/uPlot.iife.min.js"></script>
+<script src="/static/app.js"></script>
+</body>
+</html>

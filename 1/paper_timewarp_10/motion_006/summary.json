@@ -1,0 +1,181 @@
+{
+  "index": 6,
+  "family": "pick_and_place_timewarp",
+  "folder": "/home/robocup-home/kjt/force_modeling/outputs/paper_timewarp_10/motion_006",
+  "seed": 20861024,
+  "attempts": 1,
+  "duration_s": 16.34,
+  "training_duration_s": 12.0,
+  "training_window_s": [
+    2.16,
+    14.16
+  ],
+  "samples": 1635,
+  "center_rad": [
+    0.03854330384315968,
+    -0.8,
+    1.0,
+    -0.2,
+    0.0
+  ],
+  "joint_min_rad": [
+    -0.29230438435017964,
+    -0.9041919341100756,
+    0.6,
+    -0.2555882101062308,
+    0.0,
+    1.1999696254642749
+  ],
+  "joint_max_rad": [
+    0.048824294284240934,
+    -0.5930343019508162,
+    1.0236300001597927,
+    0.002721029364853698,
+    2.2335409019651396e-05,
+    1.2
+  ],
+  "imu_position_min_m": [
+    0.21795238846907172,
+    -0.006566296170237951,
+    0.12102040941043499
+  ],
+  "imu_position_max_m": [
+    0.2501820939873919,
+    0.06126074600335562,
+    0.1615997577655246
+  ],
+  "end_effector_range_xyz_m": [
+    0.038110612734104043,
+    0.09127331332347519,
+    0.042050266787809126
+  ],
+  "geometry": {
+    "validated_configurations": 1635,
+    "minimum_sampled_clearance_m": 0.005799999755317918,
+    "closest_geom_pair": [
+      "robot_collision_gripper_3",
+      "cf_collision_battery_holder"
+    ],
+    "distance_reporting_cap_m": 1.0,
+    "collision_pairs_checked_per_configuration": 848,
+    "continuous_collision_guarantee": false
+  },
+  "physics": {
+    "mode": "simulation_only_position_servo_physics",
+    "completed": true,
+    "stopped_reason": null,
+    "simulated_seconds": 16.340000000001822,
+    "physics_steps": 8170,
+    "collision_check_period_s": 0.002,
+    "minimum_sampled_clearance_m": 0.0057999997553179,
+    "closest_geom_pair": [
+      "robot_collision_gripper_3",
+      "cf_collision_battery_holder"
+    ],
+    "joint_order": [
+      "shoulder_pan",
+      "shoulder_lift",
+      "elbow_flex",
+      "wrist_flex",
+      "wrist_roll",
+      "gripper"
+    ],
+    "max_absolute_tracking_error_rad": [
+      0.014196955868037056,
+      0.024338095832323714,
+      0.04519477640698055,
+      0.020636207403197535,
+      2.23354220798774e-05,
+      3.0374560759494074e-05
+    ],
+    "max_absolute_velocity_rad_s": [
+      0.2522795705873153,
+      0.4793875320381934,
+      0.6436910424174396,
+      0.32380424246019335,
+      3.509122467490319e-05,
+      4.800812100499541e-05
+    ],
+    "max_absolute_acceleration_rad_s2": [
+      0.7904864192220383,
+      5.003375645446133,
+      9.880096569537523,
+      1.3638630653232202,
+      0.001932980655049407,
+      0.0006799413811860289
+    ],
+    "tracking_tolerance_rad": 0.12,
+    "continuous_collision_guarantee": false,
+    "hardware_safety_certification": false,
+    "compiled_model_sha256": "6b179e7803580a052030ba4c6ffea389d23438b50b34063595ddc65bcda7420c",
+    "trajectory": "/home/robocup-home/kjt/force_modeling/outputs/paper_timewarp_10/motion_006/trajectory.npz"
+  },
+  "acceleration": {
+    "samples": 1635,
+    "sample_period_s": 0.01,
+    "active_acceleration_min_xyz_m_s2": [
+      -0.15824252237418554,
+      -0.19691501399760208,
+      -0.256513440310405
+    ],
+    "active_acceleration_max_xyz_m_s2": [
+      0.17309230345264762,
+      0.119606379399322,
+      0.1750867119757853
+    ],
+    "active_acceleration_rms_xyz_m_s2": [
+      0.04549494703313651,
+      0.034629370837573156,
+      0.04261979657555733
+    ],
+    "per_segment": [],
+    "velocity_difference_check": {
+      "rms_residual_xyz_m_s2": [
+        0.006263246904475638,
+        0.004224346534905657,
+        0.0051473692343683404
+      ],
+      "note": "Central differences of sampled velocity; finite timestep/sampling error expected."
+    }
+  },
+  "source_provenance": {
+    "task": "pick_and_place",
+    "payload_condition_name": "200g",
+    "source_csv": "third_party/NeuralActuator/data/so101/pick_and_place/200g/train/001.csv",
+    "source_csv_sha256": "6c9046e44743758cf138ad009d9d5772830a52bdbaf671f6b771a0d8256ec1e9",
+    "source_duration_s": 8.433435916900635,
+    "note": "Payload names identify source paths only. No payload mass or object is added to the simulation."
+  },
+  "blocks": [
+    {
+      "name": "paper_timewarp_training_cycle",
+      "start_s": 2.91,
+      "end_s": 13.41,
+      "center_rad": [
+        0.03854330384315968,
+        -0.8,
+        1.0,
+        -0.2,
+        0.0
+      ],
+      "source_displacement_scale": 0.6411016792366204,
+      "origin_world_m": [
+        0.3002662315193745,
+        -0.010092668233335173,
+        0.18550884291317404
+      ],
+      "timewarp_beta": 0.6500380384136608,
+      "timewarp_formula": "s(u)=(1-beta)*u+beta*(10*u^3-15*u^4+6*u^5)",
+      "added_xyz_oscillation_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ik_max_error_m": 1.9808406101799232e-06,
+      "max_interpolated_path_error_m": 2.1868965742649047e-06
+    }
+  ],
+  "rejections": {},
+  "rejection_examples": {},
+  "compute_seconds": 6.406525858999885
+}

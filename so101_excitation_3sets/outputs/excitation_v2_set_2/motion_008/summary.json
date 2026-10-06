@@ -1,0 +1,182 @@
+{
+  "index": 8,
+  "family": "reverse_chirp",
+  "folder": "outputs/excitation_v2_set_2/motion_008",
+  "seed": 21063030,
+  "attempts": 1,
+  "duration_s": 18.52,
+  "training_duration_s": 12.0,
+  "training_window_s": [
+    3.26,
+    15.26
+  ],
+  "samples": 1853,
+  "center_rad": [
+    -0.5587855874806392,
+    -0.19832525140863244,
+    0.6268311360771617,
+    -0.5495699607797697,
+    0.7808394609456393
+  ],
+  "joint_min_rad": [
+    -0.8017403157851667,
+    -0.6,
+    0.38532417084126613,
+    -0.839180721453079,
+    0.0,
+    1.199969112568729
+  ],
+  "joint_max_rad": [
+    1.0756610969041083e-08,
+    0.06514657193060147,
+    0.887983702490322,
+    0.0027269959337376257,
+    1.0604186952012782,
+    1.2000035545390975
+  ],
+  "imu_position_min_m": [
+    0.23065586094614507,
+    0.003177841524451816,
+    0.06604495296255432
+  ],
+  "imu_position_max_m": [
+    0.31570358146386135,
+    0.1516106973898135,
+    0.211595312814706
+  ],
+  "end_effector_range_xyz_m": [
+    0.12456707298885017,
+    0.2191664155335154,
+    0.19452296446560294
+  ],
+  "geometry": {
+    "validated_configurations": 2137,
+    "minimum_sampled_clearance_m": 0.005236338811919359,
+    "closest_geom_pair": [
+      "clamp_right_upper_jaw",
+      "robot_collision_shoulder_5"
+    ],
+    "distance_reporting_cap_m": 1.0,
+    "collision_pairs_checked_per_configuration": 848,
+    "continuous_collision_guarantee": false
+  },
+  "physics": {
+    "mode": "simulation_only_position_servo_physics",
+    "completed": true,
+    "stopped_reason": null,
+    "simulated_seconds": 18.520000000000614,
+    "physics_steps": 9260,
+    "collision_check_period_s": 0.002,
+    "minimum_sampled_clearance_m": 0.005262175087292901,
+    "closest_geom_pair": [
+      "clamp_right_upper_jaw",
+      "robot_collision_shoulder_5"
+    ],
+    "joint_order": [
+      "shoulder_pan",
+      "shoulder_lift",
+      "elbow_flex",
+      "wrist_flex",
+      "wrist_roll",
+      "gripper"
+    ],
+    "max_absolute_tracking_error_rad": [
+      0.05029124892699588,
+      0.07981456355593611,
+      0.06964790817844124,
+      0.07356502509116924,
+      0.07331201880433258,
+      3.0888612643664715e-05
+    ],
+    "max_absolute_velocity_rad_s": [
+      0.944851121677585,
+      1.3153693095259555,
+      1.1306134435706214,
+      1.3741212073325368,
+      1.3815488682530541,
+      4.800812100499541e-05
+    ],
+    "max_absolute_acceleration_rad_s2": [
+      4.756117950289387,
+      8.508350804628058,
+      9.880096569537523,
+      8.6247352810053,
+      8.907979080184809,
+      0.0017049625687537311
+    ],
+    "tracking_tolerance_rad": 0.12,
+    "continuous_collision_guarantee": false,
+    "hardware_safety_certification": false,
+    "compiled_model_sha256": "6b179e7803580a052030ba4c6ffea389d23438b50b34063595ddc65bcda7420c",
+    "trajectory": "outputs/excitation_v2_set_2/motion_008/trajectory.npz"
+  },
+  "acceleration": {
+    "samples": 1853,
+    "sample_period_s": 0.01,
+    "active_acceleration_min_xyz_m_s2": [
+      -1.3609672489925537,
+      -1.351568420554775,
+      -2.365954166040969
+    ],
+    "active_acceleration_max_xyz_m_s2": [
+      1.2269666582221288,
+      1.6758922726696617,
+      2.130461629248053
+    ],
+    "active_acceleration_rms_xyz_m_s2": [
+      0.37006646213830857,
+      0.465693202911006,
+      0.6602554544417304
+    ],
+    "per_segment": [],
+    "velocity_difference_check": {
+      "rms_residual_xyz_m_s2": [
+        0.04108440862195977,
+        0.05271955381407747,
+        0.06235031588374498
+      ],
+      "note": "Central differences of sampled velocity; finite timestep/sampling error expected."
+    }
+  },
+  "source_provenance": null,
+  "blocks": [
+    {
+      "name": "reverse_chirp",
+      "start_s": 4.01,
+      "end_s": 14.51,
+      "center_rad": [
+        -0.5587855874806392,
+        -0.19832525140863244,
+        0.6268311360771617,
+        -0.5495699607797697,
+        0.7808394609456393
+      ],
+      "duration_s": 10.5,
+      "ramp_s": 2.0,
+      "amplitudes_rad": [
+        0.24494686095582785,
+        0.2535230560810968,
+        0.25377056697259187,
+        0.295005184232126,
+        0.28273231012824734
+      ],
+      "frequency_start_hz": [
+        0.7119540058255551,
+        0.9975646941077051,
+        0.8277234411862687,
+        0.8955680091528887,
+        0.9344429202757423
+      ],
+      "frequency_end_hz": [
+        0.2867275349926693,
+        0.19985622686237797,
+        0.22790178031308805,
+        0.17003546620393722,
+        0.21248101720120502
+      ]
+    }
+  ],
+  "rejections": {},
+  "rejection_examples": {},
+  "compute_seconds": 11.781436387000213
+}

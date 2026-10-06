@@ -1,0 +1,1525 @@
+2026-10-06 23:42:34,900 INFO nalog.arms: follower 연결: /dev/cu.usbmodem5AAF2651691 (12.0 V)
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+2026-10-06 23:42:35,374 INFO nalog.imu: Crazyflie connected: radio://0/80/2M/E7E7E7E7E8
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+2026-10-06 23:42:56,937 INFO nalog.recorder: trial T0073_20261006-234256 started (manual)
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+2026-10-06 23:43:21,472 INFO nalog.recorder: trial T0073_20261006-234256 stopped (manual)
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+2026-10-06 23:43:21,801 INFO nalog.recorder: trial T0074_20261006-234321 started (manual)
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+2026-10-06 23:43:49,856 INFO nalog.recorder: trial T0074_20261006-234321 stopped (manual)
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+2026-10-06 23:43:50,180 INFO nalog.recorder: trial T0075_20261006-234350 started (manual)
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+2026-10-06 23:44:14,570 INFO nalog.recorder: trial T0075_20261006-234350 stopped (manual)
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+2026-10-06 23:44:14,876 INFO nalog.recorder: trial T0076_20261006-234414 started (manual)
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+2026-10-06 23:44:41,473 INFO nalog.recorder: trial T0076_20261006-234414 stopped (manual)
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+2026-10-06 23:44:41,834 INFO nalog.recorder: trial T0077_20261006-234441 started (manual)
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+2026-10-06 23:45:06,770 INFO nalog.recorder: trial T0077_20261006-234441 stopped (manual)
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+2026-10-06 23:45:07,099 INFO nalog.recorder: trial T0078_20261006-234507 started (manual)
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:94: DeprecationWarning: Changing state of started or joined application is deprecated
+  c = app["calib"] = current_calib()     # re-read: offline re-solves show up immediately

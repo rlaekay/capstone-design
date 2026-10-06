@@ -1,0 +1,28 @@
+2026-10-06 20:28:13,514 INFO nalog.arms: follower 연결: /dev/cu.usbmodem5AAF2651691 (12.0 V)
+2026-10-06 20:28:14,001 INFO nalog.imu: Crazyflie connected: radio://0/80/2M/E7E7E7E7E8
+2026-10-06 20:28:15,182 INFO nalog.recorder: trial T0003_20261006-202815 started (manual)
+2026-10-06 20:29:42,719 INFO nalog.recorder: trial T0003_20261006-202815 stopped (manual)
+/Users/dmdrb/my/Artemis/na_logger/nalog/server.py:275: DeprecationWarning: Changing state of started or joined application is deprecated
+  app["calib"] = current_calib()
+2026-10-06 20:29:52,483 WARNING nalog.arms: follower 연결 끊김: 서보 응답 없음 (전원 확인)
+2026-10-06 20:29:52,842 INFO nalog.arms: follower 연결: /dev/cu.usbmodem5AAF2651691 (12.0 V)
+2026-10-06 20:29:52,866 INFO nalog.recorder: trial T0004_20261006-202952 started (motion)
+2026-10-06 20:29:56,057 INFO nalog.recorder: trial T0004_20261006-202952 stopped (idle)
+2026-10-06 20:31:01,731 INFO nalog.recorder: trial T0005_20261006-203101 started (motion)
+2026-10-06 20:31:06,020 INFO nalog.recorder: trial T0005_20261006-203101 stopped (idle)
+2026-10-06 20:31:07,771 INFO nalog.recorder: trial T0006_20261006-203107 started (motion)
+2026-10-06 20:31:19,750 INFO nalog.recorder: trial T0006_20261006-203107 stopped (idle)
+2026-10-06 20:31:41,322 INFO nalog.recorder: trial T0007_20261006-203141 started (motion)
+2026-10-06 20:32:00,460 INFO nalog.recorder: trial T0007_20261006-203141 stopped (idle)
+2026-10-06 20:46:10,750 WARNING nalog.arms: follower 연결 끊김: 서보 응답 없음 (전원 확인)
+2026-10-06 21:09:35,040 INFO nalog.arms: follower 연결: /dev/cu.usbmodem5AAF2651691 (12.0 V)
+2026-10-06 21:09:36,487 INFO nalog.recorder: trial T0008_20261006-210936 started (motion)
+2026-10-06 21:09:41,265 INFO nalog.recorder: trial T0008_20261006-210936 stopped (idle)
+2026-10-06 21:09:43,160 INFO nalog.imu: Crazyflie connected: radio://0/80/2M/E7E7E7E7E8
+
+  NA logger
+  이 Mac:        http://localhost:8080
+  같은 Wi-Fi:    http://165.246.222.74:8080
+  같은 Wi-Fi:    http://Kims-MacBook-Pro.local:8080
+  데이터 폴더:   /Users/dmdrb/my/Artemis/na_logger/data
+
