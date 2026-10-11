@@ -77,8 +77,8 @@
                   <geom type="mesh" class="visual" pos="-5.55112e-17 -5.55112e-17 0.0189" quat="1 -0 3.00524e-16 -2.00834e-17" mesh="moving_jaw_so101_v1" material="moving_jaw_so101_v1_material" name="robot_visual_moving_jaw_so101_v1_0" />
                   <geom type="mesh" class="collision" pos="-5.55112e-17 -5.55112e-17 0.0189" quat="1 -0 3.00524e-16 -2.00834e-17" mesh="moving_jaw_so101_v1" material="moving_jaw_so101_v1_material" name="robot_collision_moving_jaw_so101_v1_1" contype="1" conaffinity="1" rgba="0.15 0.65 0.9 0.22" />
                 </body>
-                <site name="crazyflie_mount" pos="-0.0369206 -0.00240979 -0.0726039" quat="-0.0633905 0.591668 -0.0116891 0.8036" size="0.004" rgba="1 0 0 1" group="4" />
-                <body name="crazyflie" pos="-0.0369206 -0.00240979 -0.0726039" quat="-0.0633905 0.591668 -0.0116891 0.8036">
+                <site name="crazyflie_mount" pos="-0.0305315 -0.00263913 -0.0756195" quat="0.633798 0.00292153 -0.773449 -0.0083046" size="0.004" rgba="1 0 0 1" group="4" />
+                <body name="crazyflie" pos="-0.0305315 -0.00263913 -0.0756195" quat="0.633798 0.00292153 -0.773449 -0.0083046">
                   <inertial mass="0.033" pos="0 0 -0.00242424242424" fullinertia="2.76338754208e-05 2.76338754208e-05 3.57057407408e-05 0 0 0" />
                   <geom name="cf_visual_0" type="mesh" mesh="cf_visual_0" material="cf_propeller_plastic" contype="0" conaffinity="0" group="2" />
                   <geom name="cf_visual_1" type="mesh" mesh="cf_visual_1" material="cf_medium_gloss_plastic" contype="0" conaffinity="0" group="2" />
@@ -116,7 +116,7 @@
       <geom type="mesh" class="collision" pos="-0.0309827 -0.000199441 0.0474" quat="0.5 0.5 0.5 0.5" mesh="waveshare_mounting_plate_so101_v2" material="waveshare_mounting_plate_so101_v2_material" name="robot_collision_base_7" contype="1" conaffinity="1" rgba="0.15 0.65 0.9 0.22" />
     </body>
     <light name="key_light" pos="0.5 -0.5 1.4" dir="-0.3 0.2 -1" diffuse="0.7 0.7 0.7" />
-    <!-- table: robot base flush with the front edge (x = 0.065), open space in front of it; solid block behind the edge, top at the base plate -->
+    
     <geom name="floor" type="box" size="0.6 0.6 0.3" pos="-0.535 0 -0.3025" material="floor_mat" contype="1" conaffinity="1" />
   </worldbody>
   <asset>

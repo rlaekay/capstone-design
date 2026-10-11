@@ -19,7 +19,8 @@ import serial
 from . import units
 from .clock import now_ns
 from .config import Config
-from .sts import ADDR_ACCELERATION, ADDR_PRESENT_VOLTAGE, StsBus
+from .sts import (ADDR_ACCELERATION, ADDR_TORQUE_ENABLE, ADDR_D_COEF, ADDR_I_COEF, ADDR_LOCK, ADDR_P_COEF,
+                  ADDR_PRESENT_VOLTAGE, StsBus)
 
 log = logging.getLogger(__name__)
 
@@ -128,6 +129,8 @@ class ArmManager:
         self._prev_goal: list | None = None
         self._script = None              # (goal_fn(t_s)->deg list, duration_s, t_start_monotonic)
         self._script_req = None
+        self._gain_req = None             # ({id: {"p","d","i"}}, persist)
+        self.gain_result: dict | None = None
         self.script_t0_ns: int | None = None
         self._stop = threading.Event()
         self._threads = [threading.Thread(target=self._scan_loop, name="arm-scan", daemon=True),
@@ -157,6 +160,15 @@ class ArmManager:
         with self._cmd_lock:
             self._script_req = (goal_fn, float(duration_s))
             self._pending = "script"
+
+    def set_gains(self, gains: dict, persist: bool = False) -> None:
+        """Write follower P/D/I coefficients ({id: {"p": .., "d": .., "i": ..}}) from the loop thread.
+        persist=False keeps the servo EEPROM lock closed: the values act now and are gone after a
+        power cycle. Result lands in gain_result."""
+        with self._cmd_lock:
+            self.gain_result = None
+            self._gain_req = ({int(k): v for k, v in gains.items()}, bool(persist))
+            self._pending = "gains"
 
     def status(self) -> dict:
         f, l = self.follower, self.leader
@@ -312,6 +324,32 @@ class ArmManager:
         with self._cmd_lock:
             cmd, self._pending = self._pending, None
             script_req, self._script_req = self._script_req, None
+        if cmd == "gains":
+            req = getattr(self, "_gain_req", None)
+            self._gain_req = None
+            if not f or not req:
+                self.gain_result = {"ok": False, "error": "팔로워 없음"}
+                return
+            gains, persist = req
+            out, ok = {}, True
+            for sid, g in gains.items():
+                if sid not in f.found:
+                    ok = False
+                    continue
+                lock_ok = f.bus.write_byte(sid, ADDR_LOCK, 0 if persist else 1)
+                for key, addr in (("p", ADDR_P_COEF), ("d", ADDR_D_COEF), ("i", ADDR_I_COEF)):
+                    if key in g:
+                        ok &= f.bus.write_byte(sid, addr, max(0, min(254, int(g[key]))))
+                if persist:
+                    f.bus.write_byte(sid, ADDR_LOCK, 1)
+                c = f.bus.read_config(sid)
+                if c:
+                    f.servo_config[str(sid)] = c
+                    out[str(sid)] = {"p": c["p_coef"], "d": c["d_coef"], "i": c["i_coef"]}
+                ok &= lock_ok
+            self.gain_result = {"ok": ok, "persist": persist, "gains": out}
+            self.message = f"게인 변경 {'(EEPROM 저장)' if persist else '(임시)'}: {out}"
+            return
         if cmd == "script":
             if not f:
                 self.message = "스크립트 시작 불가: 팔로워 없음"
@@ -346,6 +384,11 @@ class ArmManager:
             self.teleop = "hold"
             self._manual_stop = True
             self.message = "자동 동작 중단: 현재 자세 유지" if was == "script" else "텔레옵 정지: 팔로워 자세 유지 중"
+        elif cmd == "release_gripper" and f:
+            # gripper (last id) limp so a payload can be placed; other joints keep holding
+            gid = self.ids[-1]
+            ok = f.bus.write_byte(gid, ADDR_TORQUE_ENABLE, 0)
+            self.message = "그리퍼 토크 풀림: 물건을 쥐어주세요" if ok else "그리퍼 토크 끄기 확인 실패"
         elif cmd == "torque_off" and f:
             f.bus.write_torque(False)
             self.teleop = "off"

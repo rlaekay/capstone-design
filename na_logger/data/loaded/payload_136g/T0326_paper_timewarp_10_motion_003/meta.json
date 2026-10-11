@@ -1,0 +1,118 @@
+{
+ "trial_id": "T0326_20261011-194057",
+ "set": "paper_timewarp_10",
+ "motion": "motion_003",
+ "payload_mass_g": 136.0,
+ "start_local": "2026-10-11T19:40:56",
+ "end_local": "2026-10-11T19:41:19",
+ "start_unix": 1791715256.9320452,
+ "end_unix": 1791715279.2083836,
+ "duration_s": 22.261399729,
+ "source_reference": "/Users/dmdrb/my/Artemis/1/paper_timewarp_10/motion_003/reference.csv",
+ "windows_in_full_csv_s": {
+  "approach": [
+   1.016215458,
+   3.016215458
+  ],
+  "reference": [
+   4.516215458,
+   20.926215458
+  ],
+  "training": [
+   6.676215458,
+   18.676215458
+  ]
+ },
+ "gripper_hold_deg": 5.846153846153847,
+ "gripper_start_deg": 5.846153846153847,
+ "grip_squeeze_deg": 0.0,
+ "servo_gains": {
+  "1": {
+   "p": 16,
+   "d": 24,
+   "i": 0
+  },
+  "2": {
+   "p": 24,
+   "d": 32,
+   "i": 0
+  },
+  "3": {
+   "p": 24,
+   "d": 32,
+   "i": 0
+  },
+  "4": {
+   "p": 64,
+   "d": 16,
+   "i": 0
+  },
+  "5": {
+   "p": 64,
+   "d": 0,
+   "i": 0
+  },
+  "6": {
+   "p": 32,
+   "d": 32,
+   "i": 0
+  }
+ },
+ "servo_protection": {
+  "1": {
+   "overload_torque_pct": 80,
+   "protection_current": 310
+  },
+  "2": {
+   "overload_torque_pct": 80,
+   "protection_current": 310
+  },
+  "3": {
+   "overload_torque_pct": 80,
+   "protection_current": 310
+  },
+  "4": {
+   "overload_torque_pct": 80,
+   "protection_current": 310
+  },
+  "5": {
+   "overload_torque_pct": 80,
+   "protection_current": 310
+  },
+  "6": {
+   "overload_torque_pct": 80,
+   "protection_current": 310
+  }
+ },
+ "imu_calib_id": "align_20261011-184320",
+ "label_point": "payload_com (model site)",
+ "rates_hz": {
+  "arm": 100.21368564189987,
+  "imu": 100.05409401603279
+ },
+ "imu_coverage": 0.9995497523638001,
+ "quality_training_window": {
+  "track_rms_deg": [
+   0.468,
+   2.68,
+   2.88,
+   0.474,
+   0.088
+  ],
+  "load_max_pct": [
+   5.1,
+   38.2,
+   36.2,
+   14.6,
+   0.0,
+   0.0
+  ],
+  "imu_vs_fk_corr_3hz": 0.9494
+ },
+ "scene": "table behind base, open in front (model/scene.xml)",
+ "files": {
+  "training.csv": "12 s training window, 100 Hz",
+  "full.csv": "whole trial (= merged.csv)",
+  "raw/": "logger raw streams and trial meta"
+ }
+}

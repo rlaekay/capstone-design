@@ -150,6 +150,25 @@ def make_app(hub: Hub) -> web.Application:
     async def api_status(_):
         return web.json_response(full_status())
 
+    async def servo_gains(request: web.Request):
+        arm = hub.arm_src
+        if request.method == "GET":
+            f = getattr(arm, "follower", None)
+            cfg_ = f.servo_config if f else {}
+            return web.json_response({sid: {"p": c.get("p_coef"), "d": c.get("d_coef"), "i": c.get("i_coef")}
+                                      for sid, c in cfg_.items()})
+        if not control_ok(request):
+            raise web.HTTPForbidden(text="로봇 제어는 로거가 실행 중인 Mac에서만 가능합니다")
+        if replayer.busy() or runner.busy():
+            return web.json_response({"ok": False, "error": "동작 실행 중"})
+        body = await request.json()
+        arm.set_gains(body.get("gains", {}), persist=bool(body.get("persist", False)))
+        for _ in range(60):
+            if arm.gain_result is not None:
+                return web.json_response(arm.gain_result)
+            await asyncio.sleep(0.05)
+        return web.json_response({"ok": False, "error": "시간 초과"})
+
     async def replay_action(request: web.Request):
         action = request.match_info["action"]
         if action == "list":
@@ -160,7 +179,12 @@ def make_app(hub: Hub) -> web.Application:
             raise web.HTTPForbidden(text="로봇 제어는 로거가 실행 중인 Mac에서만 가능합니다")
         if action == "start":
             body = await request.json()
-            return web.json_response(replayer.start(list(body.get("motions", []))))
+            pg = body.get("payload_g")
+            if pg is not None:                    # the trial meta records the same mass
+                cfg.payload_mass_g = float(pg)
+            return web.json_response(replayer.start(list(body.get("motions", [])), str(body.get("tag", "")),
+                                                    None if pg is None else float(pg),
+                                                    float(body.get("grip_squeeze_deg", 0.0))))
         if action == "abort":
             replayer.abort()
             return web.json_response({"ok": True})
@@ -183,7 +207,7 @@ def make_app(hub: Hub) -> web.Application:
     async def api_payload(request: web.Request):
         body = await request.json()
         m = body.get("mass_g")
-        cfg.payload_mass_g = float(m) if m not in (None, "") and float(m) > 0 else None
+        cfg.payload_mass_g = float(m) if m not in (None, "") and float(m) >= 0 else None
         for ws in list(app["clients"]):
             try:
                 await ws.send_json({"type": "payload", "mass_g": cfg.payload_mass_g})
@@ -215,7 +239,7 @@ def make_app(hub: Hub) -> web.Application:
         if not control_ok(request):
             raise web.HTTPForbidden(text="로봇 제어는 로거가 실행 중인 Mac에서만 가능합니다")
         action = request.match_info["action"]
-        if action not in ("start", "hold", "torque_off"):
+        if action not in ("start", "hold", "torque_off", "release_gripper"):
             raise web.HTTPNotFound()
         hub.arm_src.command(action)
         return web.json_response({"ok": True})
@@ -277,6 +301,7 @@ def make_app(hub: Hub) -> web.Application:
     app.router.add_get("/api/all.zip", dl_all)
     app.router.add_post("/api/align/{action}", align_action)
     app.router.add_route("*", "/api/replay/{action}", replay_action)
+    app.router.add_route("*", "/api/servo/gains", servo_gains)
     app.router.add_get("/api/align/current.json", align_current)
     app.router.add_post("/api/payload", api_payload)
     app.router.add_static("/static", STATIC)

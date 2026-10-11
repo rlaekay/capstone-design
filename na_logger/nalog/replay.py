@@ -46,10 +46,12 @@ def load_reference(motion: str):
 class Replay:
     """Goal function in logger degrees: approach -> settle -> reference -> hold."""
 
-    def __init__(self, q_now_deg, t_ref, q_ref_deg):
+    def __init__(self, q_now_deg, t_ref, q_ref_deg, grip_deg: float | None = None):
         self.q_now = np.asarray(q_now_deg, float)
         self.t_ref, self.q_ref = t_ref - t_ref[0], np.array(q_ref_deg, float)
-        self.q_ref[:, 5] = self.q_now[5]           # gripper stays where it was at the start
+        # gripper held where it was at the start, or squeezed a little further (grip_deg)
+        self.grip = float(self.q_now[5] if grip_deg is None else grip_deg)
+        self.q_ref[:, 5] = self.grip
         dist = np.abs(self.q_ref[0] - self.q_now).max()
         self.t_app = max(2.0, dist / APPROACH_DPS)
         self.t_ref0 = self.t_app + SETTLE_S
@@ -66,11 +68,11 @@ class Replay:
         return [float(np.interp(tau, self.t_ref, self.q_ref[:, j])) for j in range(6)]
 
 
-def check(motion: str, kin, q_now_deg=None) -> list[str]:
+def check(motion: str, kin, q_now_deg=None, grip_deg: float | None = None) -> list[str]:
     t, q, _ = load_reference(motion)
     deg = np.array([kin.jmap.deg(r) for r in q])
     if q_now_deg is not None:
-        deg[:, 5] = q_now_deg[5]
+        deg[:, 5] = q_now_deg[5] if grip_deg is None else grip_deg
     problems = []
     lim = real_limits(kin, margin_deg=1.0)
     bad = (deg < lim[:, 0]) | (deg > lim[:, 1])
@@ -83,7 +85,7 @@ def check(motion: str, kin, q_now_deg=None) -> list[str]:
         problems.append(f"{motion}: 속도 {v.max():.0f}°/s")
     rows, hits = deg, []
     if q_now_deg is not None:
-        rp = Replay(q_now_deg, t, deg)
+        rp = Replay(q_now_deg, t, deg, grip_deg)
         # the approach leaves the present pose: contacts the model already sees there (e.g. the
         # arm resting folded) are the real arm's state, not a planned collision
         start = {frozenset((h["geom1"], h["geom2"])) for h in kin.collisions([rp.goal(0.0)])}
@@ -111,12 +113,13 @@ class ReplayRunner:
 
     def status(self) -> dict:
         return {"state": self.state, "motion": self.motion, "message": self.message,
-                "progress": self.progress, "queue": list(self.queue), "done": self.done[-50:]}
+                "progress": self.progress, "queue": list(self.queue), "done": list(self.done)}
 
     def busy(self) -> bool:
         return self._thread is not None and self._thread.is_alive()
 
-    def start(self, motions: list[str]) -> dict:
+    def start(self, motions: list[str], tag: str = "", payload_g: float | None = None,
+              grip_squeeze_deg: float = 0.0) -> dict:
         if self.busy():
             return {"ok": False, "problems": ["이미 실행 중"]}
         known = set(list_motions())
@@ -124,6 +127,9 @@ class ReplayRunner:
         if unknown or not motions:
             return {"ok": False, "problems": [f"모르는 모션: {unknown}"]}
         self._abort.clear()
+        self.tag = tag
+        self.grip_squeeze = float(grip_squeeze_deg)   # degrees past the start value, closing
+        self.payload_g = payload_g        # not None -> each trial is also exported to data/loaded/
         self.queue = list(motions)
         self._thread = threading.Thread(target=self._run, name="replay", daemon=True)
         self._thread.start()
@@ -141,7 +147,11 @@ class ReplayRunner:
             self.motion = m
             try:
                 tid = self._one(m)
-                self.done.append({"motion": m, "trial": tid, "ok": True})
+                entry = {"motion": m, "trial": tid, "ok": True}
+                self.done.append(entry)
+                if self.payload_g is not None:
+                    threading.Thread(target=self._export, args=(tid, self.payload_g, entry),
+                                     name="loaded-export", daemon=True).start()
             except Exception as e:
                 self.state, self.message = "error", f"{m}: {e}"
                 self.done.append({"motion": m, "ok": False, "error": str(e)})
@@ -152,6 +162,14 @@ class ReplayRunner:
                 return
         self.state = "aborted" if self._abort.is_set() else "idle"
         self.message = "중단됨" if self._abort.is_set() else f"완료 {len(self.done)}개"
+
+    def _export(self, tid: str, mass_g: float, entry: dict):
+        from .loaded import export
+        try:
+            out = export(Path(self.hub.cfg.data_dir) / tid, Path(self.hub.cfg.data_dir), mass_g)
+            entry["export"] = str(out)
+        except Exception as e:  # noqa: BLE001
+            entry["export_error"] = str(e)
 
     def _one(self, motion: str) -> str:
         hub, arm = self.hub, self.hub.arm_src
@@ -166,16 +184,19 @@ class ReplayRunner:
             raise RuntimeError("팔로워 관절값 없음")
         q_now = np.array(s["pos_deg"], float)
         kin = self.kin_factory()
-        problems = check(motion, kin, q_now)
+        # gripper closes toward smaller angles; squeeze = hold a bit past where it stopped
+        grip = float(q_now[5] - getattr(self, "grip_squeeze", 0.0))
+        problems = check(motion, kin, q_now, grip)
         if problems:
             raise RuntimeError("; ".join(problems))
         t, q, win = load_reference(motion)
         deg = np.array([kin.jmap.deg(r) for r in q])
-        rp = Replay(q_now, t, deg)
+        rp = Replay(q_now, t, deg, grip)
 
         self.state = "running"
         hub.stop_trial()
-        tid = hub.start_trial(label=f"replay {motion}")
+        tag = getattr(self, "tag", "")
+        tid = hub.start_trial(label=f"replay {motion}" + (f" [{tag}]" if tag else ""))
         arm.start_script(rp.goal, rp.duration)
         t_start = time.monotonic()
         script_t0 = None
@@ -194,12 +215,12 @@ class ReplayRunner:
             if not ast.get("follower", {}).get("connected"):
                 raise RuntimeError("팔로워 연결 끊김")
             # single corrupted temperature reads (seen on ID 5) are ignored: real heating is slow,
-            # so only a reading that stays >= 65 C for 3 s stops the run
+            # so only a reading that stays >= 69 C for 8 s stops the run
             temps = [x for x in (hub.status().get("joints") or {}).get("temp", []) if x is not None]
-            if temps and max(temps) >= 65:
+            if temps and max(temps) >= 69:
                 hot_since = hot_since or time.monotonic()
-                if time.monotonic() - hot_since > 3.0:
-                    raise RuntimeError(f"서보 온도 {max(temps)} °C (3초 이상)")
+                if time.monotonic() - hot_since > 8.0:
+                    raise RuntimeError(f"서보 온도 {max(temps)} °C (8초 이상)")
             else:
                 hot_since = None
             time.sleep(0.05)
@@ -210,7 +231,8 @@ class ReplayRunner:
                 "reference_start_s": rp.t_ref0, "reference_end_s": rp.t_ref0 + float(rp.t_ref[-1]),
                 "training_window_s": ([rp.t_ref0 + win[0], rp.t_ref0 + win[1]] if win else None),
                 "note": "times are seconds after script_t0_ns (Mac monotonic clock)",
-                "q_start_deg": q_now.tolist(), "gripper_fixed_deg": float(q_now[5]),
+                "q_start_deg": q_now.tolist(), "gripper_fixed_deg": rp.grip, "gripper_start_deg": float(q_now[5]),
+                "grip_squeeze_deg": float(q_now[5]) - rp.grip,
                 "scene": "table behind base, open in front (model/scene.xml)"}
         (Path(hub.cfg.data_dir) / tid / "replay.json").write_text(json.dumps(info, indent=1))
         return tid

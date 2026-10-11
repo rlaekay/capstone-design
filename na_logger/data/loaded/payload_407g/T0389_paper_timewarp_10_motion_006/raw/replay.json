@@ -1,0 +1,28 @@
+{
+ "motion": "paper_timewarp_10/motion_006",
+ "source": "/Users/dmdrb/my/Artemis/1/paper_timewarp_10/motion_006/reference.csv",
+ "script_t0_ns": 24969318002708,
+ "approach_s": [
+  0.0,
+  2.0
+ ],
+ "reference_start_s": 3.5,
+ "reference_end_s": 19.84,
+ "training_window_s": [
+  5.66,
+  17.66
+ ],
+ "note": "times are seconds after script_t0_ns (Mac monotonic clock)",
+ "q_start_deg": [
+  -0.39560439560439564,
+  -33.0989010989011,
+  41.010989010989015,
+  5.4945054945054945,
+  -0.13186813186813187,
+  27.912087912087916
+ ],
+ "gripper_fixed_deg": 27.912087912087916,
+ "gripper_start_deg": 27.912087912087916,
+ "grip_squeeze_deg": 0.0,
+ "scene": "table behind base, open in front (model/scene.xml)"
+}

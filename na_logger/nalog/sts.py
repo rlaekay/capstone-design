@@ -20,6 +20,8 @@ ADDR_ACCELERATION = 41
 ADDR_GOAL_POSITION = 42
 ADDR_PRESENT_POSITION = 56
 ADDR_PRESENT_VOLTAGE = 62
+ADDR_P_COEF, ADDR_D_COEF, ADDR_I_COEF = 21, 22, 23
+ADDR_LOCK = 55                    # 1 = EEPROM writes take effect but are not saved
 
 # Two sync reads per cycle: state/telemetry (56..70) then command (40..43).
 # A single 40..70 read of six servos corrupted ID 4's reply in ~10 % of cycles on the real
@@ -206,6 +208,11 @@ class StsBus:
             back = self.read(sid, addr, 1)
             ok &= back is not None and back[0] == value
         return ok
+
+    def write_byte(self, sid: int, addr: int, value: int) -> bool:
+        self._pk.write1ByteTxRx(self._ph, sid, addr, value)
+        back = self.read(sid, addr, 1)
+        return back is not None and back[0] == value
 
     def write_torque(self, on: bool) -> bool:
         return self.write_byte_all(ADDR_TORQUE_ENABLE, 1 if on else 0)

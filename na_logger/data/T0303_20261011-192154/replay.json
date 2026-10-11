@@ -1,0 +1,28 @@
+{
+ "motion": "excitation_v2_set_2/motion_004",
+ "source": "/Users/dmdrb/my/Artemis/1/excitation_v2_set_2/motion_004/reference.csv",
+ "script_t0_ns": 20804863413458,
+ "approach_s": [
+  0.0,
+  2.4246153846153846
+ ],
+ "reference_start_s": 3.9246153846153846,
+ "reference_end_s": 25.484615384615385,
+ "training_window_s": [
+  8.704615384615385,
+  20.704615384615387
+ ],
+ "note": "times are seconds after script_t0_ns (Mac monotonic clock)",
+ "q_start_deg": [
+  28.17582417582418,
+  -19.472527472527474,
+  18.681318681318682,
+  -7.252747252747254,
+  60.61538461538462,
+  16.835164835164836
+ ],
+ "gripper_fixed_deg": 16.835164835164836,
+ "gripper_start_deg": 16.835164835164836,
+ "grip_squeeze_deg": 0.0,
+ "scene": "table behind base, open in front (model/scene.xml)"
+}
