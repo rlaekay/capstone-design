@@ -25,6 +25,18 @@ SETTLE_S = 1.5
 HOLD_S = 1.0
 
 
+# custom trajectories registered at runtime (diagnostics): name -> (t [s], logger degrees (N, 6))
+CUSTOM: dict[str, tuple] = {}
+
+
+def _traj(motion: str, kin):
+    if motion in CUSTOM:
+        t, deg = CUSTOM[motion]
+        return np.asarray(t, float), np.array(deg, float), None
+    t, q, win = load_reference(motion)
+    return t, np.array([kin.jmap.deg(r) for r in q]), win
+
+
 def list_motions() -> list[str]:
     out = []
     for s in SETS:
@@ -69,8 +81,7 @@ class Replay:
 
 
 def check(motion: str, kin, q_now_deg=None, grip_deg: float | None = None) -> list[str]:
-    t, q, _ = load_reference(motion)
-    deg = np.array([kin.jmap.deg(r) for r in q])
+    t, deg, _ = _traj(motion, kin)
     if q_now_deg is not None:
         deg[:, 5] = q_now_deg[5] if grip_deg is None else grip_deg
     problems = []
@@ -122,7 +133,7 @@ class ReplayRunner:
               grip_squeeze_deg: float = 0.0) -> dict:
         if self.busy():
             return {"ok": False, "problems": ["이미 실행 중"]}
-        known = set(list_motions())
+        known = set(list_motions()) | set(CUSTOM)
         unknown = [m for m in motions if m not in known]
         if unknown or not motions:
             return {"ok": False, "problems": [f"모르는 모션: {unknown}"]}
@@ -189,8 +200,7 @@ class ReplayRunner:
         problems = check(motion, kin, q_now, grip)
         if problems:
             raise RuntimeError("; ".join(problems))
-        t, q, win = load_reference(motion)
-        deg = np.array([kin.jmap.deg(r) for r in q])
+        t, deg, win = _traj(motion, kin)
         rp = Replay(q_now, t, deg, grip)
 
         self.state = "running"

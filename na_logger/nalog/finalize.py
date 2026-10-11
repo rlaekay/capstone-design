@@ -13,7 +13,7 @@ from .sync import estimate_lag, fit_cf_clock
 
 ARM_TIME_COLS = ["t_ns", "t_req_ns", "t_resp_ns", "seq", "leader_t_ns", "teleop"]
 ARM_FIELDS = ["ok", "torque", "goal", "pos", "vel", "load", "volt", "temp", "moving", "cur",
-              "leader", "target"]
+              "leader", "target", "status"]
 IMU_COLS = ["rx_ns", "cf_ms", "acc_x", "acc_y", "acc_z", "gyro_x", "gyro_y", "gyro_z"]
 ATT_COLS = ["rx_ns", "cf_ms", "roll", "pitch", "yaw"]
 TELEOP_CODE = {"off": 0, "active": 1, "hold": 2, "script": 3}
@@ -21,6 +21,18 @@ TELEOP_CODE = {"off": 0, "active": 1, "hold": 2, "script": 3}
 
 def arm_header(joints: list[str]) -> list[str]:
     return ARM_TIME_COLS + [f"{j}.{f}" for j in joints for f in ARM_FIELDS]
+
+
+def file_arm_header(path: Path, joints: list[str]) -> list[str]:
+    """Columns as written in this arm.csv (older trials have fewer per-joint fields)."""
+    try:
+        with open(path) as f:
+            h = f.readline().strip().split(",")
+        if len(h) > 1:
+            return h
+    except OSError:
+        pass
+    return arm_header(joints)
 
 
 def _load(path: Path, ncols: int) -> np.ndarray:
@@ -60,7 +72,7 @@ def load_streams(trial_dir: Path) -> dict:
     trial_dir = Path(trial_dir)
     meta = json.loads((trial_dir / "meta.json").read_text())
     joints = meta["joint_names"]
-    hdr = arm_header(joints)
+    hdr = file_arm_header(trial_dir / "arm.csv", joints)
     col = {h: i for i, h in enumerate(hdr)}
     arm = _load(trial_dir / "arm.csv", len(hdr))
     imu = _load(trial_dir / "imu.csv", len(IMU_COLS))
@@ -120,7 +132,7 @@ def finalize(trial_dir: Path) -> dict:
     latency_ms = float(meta["config"].get("imu_latency_ms", 0.0))
     period_ms = float(meta["config"].get("imu_period_ms", 10))
 
-    hdr = arm_header(joints)
+    hdr = file_arm_header(trial_dir / "arm.csv", joints)
     col = {h: i for i, h in enumerate(hdr)}
     arm = _load(trial_dir / "arm.csv", len(hdr))
     imu = _load(trial_dir / "imu.csv", len(IMU_COLS))

@@ -11,6 +11,7 @@ import zipfile
 from pathlib import Path
 
 from aiohttp import WSMsgType, web
+import numpy as np
 
 from .recorder import TRIAL_RE, Hub
 from . import alignid
@@ -188,6 +189,17 @@ def make_app(hub: Hub) -> web.Application:
         if action == "abort":
             replayer.abort()
             return web.json_response({"ok": True})
+        if action == "custom":                    # diagnostics: waypoints [[t, q1..q6], ...] in degrees
+            body = await request.json()
+            wp = np.asarray(body["waypoints"], float)
+            tt = np.arange(wp[0, 0], wp[-1, 0] + 1e-9, 0.01)
+            k = np.clip(np.searchsorted(wp[:, 0], tt, side="right") - 1, 0, len(wp) - 2)
+            u = (tt - wp[k, 0]) / (wp[k + 1, 0] - wp[k, 0])
+            u = u ** 3 * (10 - 15 * u + 6 * u ** 2)          # min-jerk between waypoints
+            deg = wp[k, 1:] + (wp[k + 1, 1:] - wp[k, 1:]) * u[:, None]
+            name = f"custom/{body.get('name', 'diag')}"
+            replay.CUSTOM[name] = (tt, deg)
+            return web.json_response(replayer.start([name], str(body.get("tag", ""))))
         raise web.HTTPNotFound()
 
     async def align_action(request: web.Request):

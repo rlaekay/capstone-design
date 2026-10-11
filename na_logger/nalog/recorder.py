@@ -85,8 +85,17 @@ class TrialManager:
         return sorted(self.index.values(), key=lambda m: m.get("num") or 0, reverse=True)
 
     def _new_id(self) -> tuple[str, int]:
+        # numbers keep increasing even after raw trial folders are deleted: also look at the
+        # payload exports (data/loaded/*/T####_...) and the last number handed out
         nums = [int(TRIAL_RE.match(k).group(1)) for k in self.index if TRIAL_RE.match(k)]
+        nums += [int(p.name[1:5]) for p in self.root.glob("loaded/*/T[0-9][0-9][0-9][0-9]_*")]
+        counter = self.root / "last_trial_num.txt"
+        try:
+            nums.append(int(counter.read_text().strip()))
+        except (OSError, ValueError):
+            pass
         num = max(nums, default=0) + 1
+        counter.write_text(f"{num}\n")
         return f"T{num:04d}_{time.strftime('%Y%m%d-%H%M%S')}", num
 
     # ------------------------------------------------------------ control (hub.lock held)

@@ -2,7 +2,7 @@
   "id": "T0078_20261006-234507",
   "num": 78,
   "label": "replay excitation_v2_set_1/motion_005",
-  "state": "recording",
+  "state": "ready",
   "auto": false,
   "reason": "manual",
   "started_unix": 1791297906.1007612,
@@ -712,5 +712,33 @@
     ],
     "sim": false
   },
-  "payload_mass_g": null
+  "payload_mass_g": null,
+  "duration_s": 20.94434475,
+  "n_arm": 2090,
+  "n_imu": 2077,
+  "n_att": 2107,
+  "arm_rate_hz": 100.16527269995491,
+  "arm_dt_p99_ms": 11.65878108000065,
+  "imu_rate_hz": 100.05386205975684,
+  "imu_coverage": 0.9899521531100478,
+  "clock_fit": {
+    "n": 4184,
+    "bins": 22,
+    "bins_used": 22,
+    "drift_ppm": -538.3306515219518,
+    "envelope_jitter_ms": 0.15938221504794076,
+    "rx_excess_median_ms": 0.7680652224225923,
+    "rx_excess_p95_ms": 1.6715791217982767,
+    "segments": 1
+  },
+  "imu_lag": {
+    "lag_ms": 7.513249690557829,
+    "r2": 0.9765096324419971,
+    "corr": 0.9881850193369646,
+    "method": "lstsq(|gyro|^2 ~ qd^T M qd)",
+    "reliable": true,
+    "lag_ms_after_correction": 7.513249690557829
+  },
+  "finalized_unix": 1791720560.711859,
+  "max_temp_C": 150.0
 }

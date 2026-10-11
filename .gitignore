@@ -3,3 +3,8 @@
 __pycache__/
 *.pyc
 .DS_Store
+
+# raw logger trials (GUI auto-recordings etc.); payload runs are exported with raw/ to data/loaded/
+na_logger/data/T*/
+na_logger/data/last_trial_num.txt
+na_logger/logs/

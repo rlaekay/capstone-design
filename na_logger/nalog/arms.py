@@ -26,7 +26,7 @@ log = logging.getLogger(__name__)
 
 PORT_GLOBS = ["/dev/cu.usbmodem*", "/dev/cu.usbserial*", "/dev/cu.wchusbserial*",
               "/dev/ttyACM*", "/dev/ttyUSB*"]
-FIELDS = ["torque", "goal", "pos", "vel", "load", "volt", "temp", "moving", "cur"]
+FIELDS = ["torque", "goal", "pos", "vel", "load", "volt", "temp", "moving", "cur", "status"]
 BUS_ERRORS = (serial.SerialException, OSError)
 
 
